@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% load url from future %}
+
+
+{% block title %} Search for a place 
+
+{% endblock %}
+
+{% block content %}
+		<link rel="stylesheet" type="text/css" href="{% static "city/css/mdp.css" %}">		
+
+		<script type="text/javascript" src="{% static "city/js/jquery-1.7.2.js" %}"></script>
+		<script type="text/javascript" src="{% static "city/js/jquery.ui.core.js" %}"></script>
+		<script type="text/javascript" src="{% static "city/js/jquery.ui.datepicker.js" %}"></script>
+		
+		<script type="text/javascript" src="{% static "city/js/jquery-ui.multidatespicker.js" %}"></script>
+		<script type="text/javascript">				
+				$(document).ready(function () {
+					$("#id_fromDate").multiDatesPicker({					
+					altField: '#id_toDate',
+					pickableRange: 14,
+					maxPicks: 2,
+					adjustRangeToDisabled: true					
+					});					
+				});
+				$(document).ready(function () {
+					$("#id_toDate").multiDatesPicker({
+					maxPicks: 1,
+					altField: '#id_toDate'
+					});					
+				});								
+			</script>
+			
+			
+			<script type="text/javascript">
+				function splitDate(){
+				    var option_result = document.getElementById("id_fromDate").value;
+    				var option_array=option_result.split(",");
+    				if(option_array[0]!="undefined" && option_array[1]!="undefined")
+					{    									
+					document.getElementById('id_fromDate').value = option_array[0];
+					document.getElementById('id_toDate').value = option_array[1];					
+					return true;
+					}
+					else
+					{
+					alert("undefined value for the calendar");
+					return false;
+					}
+				}
+			</script>
+
+	<form action="/city/searchPlace" method="POST"  onSubmit="javascript:return splitDate();" > {% csrf_token %}
+	<ul>		
+			{{ form.as_ul }}			
+	</ul>
+
+			
+			<input type="submit" value="Search" />
+	</form>			
+{% endblock %}

@@ -1,0 +1,69 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     Hungarian-weka.filters.unsupervised.attribute.MathExpression-E(A-MIN)/(MAX-MIN)
+Instances:    294
+Attributes:   14
+              Age
+              Sex
+              Cp
+              Trestbps
+              Chol
+              Fbs
+              Restecg
+              Thalach
+              Exang
+              Oldpeak
+              Slope
+              Ca
+              Thal
+              Num
+Test mode:evaluate on training data
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+Exang = 0
+|   Oldpeak <= 0.2: 0 (190.0/27.0)
+|   Oldpeak > 0.2
+|   |   Slope = 1: 0 (3.7)
+|   |   Slope = 2
+|   |   |   Sex = 0: 0 (3.0/1.0)
+|   |   |   Sex = 1: 1 (8.0)
+|   |   Slope = 3: 1 (0.0)
+Exang = 1: 1 (89.3/19.3)
+
+Number of Leaves  : 	6
+
+Size of the tree : 	10
+
+
+Time taken to build model: 0.02 seconds
+
+=== Evaluation on training set ===
+=== Summary ===
+
+Correctly Classified Instances         247               84.0136 %
+Incorrectly Classified Instances        47               15.9864 %
+Kappa statistic                          0.6468
+Mean absolute error                      0.265 
+Root mean squared error                  0.3634
+Relative absolute error                 57.4467 %
+Root relative squared error             75.6885 %
+Total Number of Instances              294     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.899     0.264      0.858     0.899     0.878      0.825    0
+                 0.736     0.101      0.804     0.736     0.768      0.825    1
+Weighted Avg.    0.84      0.205      0.838     0.84      0.838      0.825
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 169  19 |   a = 0
+  28  78 |   b = 1
+

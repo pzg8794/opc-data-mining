@@ -1,0 +1,264 @@
+% This file is based on the "sig-alternate.tex" V1.9 April 2009
+% This file should be compiled with V2.4 of "sig-alternate.cls" April 2009
+
+\documentclass{sig-alternate}
+
+\usepackage[english]{babel}	
+\usepackage{pdfpages}
+\usepackage{amsmath}	
+\usepackage[T1]{fontenc}
+
+\usepackage{url}
+\usepackage{etoolbox}
+
+\makeatletter
+\patchcmd{\maketitle}{\@copyrightspace}{}{}{}
+\makeatother
+
+%\crdata{0-00000-00-0/00/00}
+\begin{document}
+
+%%% Maketitle metadata
+\newcommand{\horrule}[1]{\rule{\linewidth}{#1}} 	% Horizontal rule
+
+\title{
+		%\vspace{-1in} 	
+		\usefont{OT1}{bch}{b}{n}
+		\textbf{\normalfont\normalsize\textsc{Rochester Institute of Technology}} \\
+		%\vspace{-10mm}		
+		\horrule{0.5pt} \\[0.4cm]
+		\textbf{\huge Big Data Medical Diagnosis} \\
+		\horrule{2pt} \\[0.5cm]
+		\vspace{-10mm}
+}
+
+\author{
+		\normalfont\Large 
+        Piter Garcia\\[0pt]\normalsize
+        \today
+}
+\date{}
+\maketitle
+
+
+\section{Abstract}
+\label{Abstract}
+
+The use of the World Wide Web is continuously increasing, making it an a useful tool as a source of prediction purposes such as predicting a medical diagnosis based on an individual symptomatology. The topic I will be discussing is titled "Big Data Medical Diagnosis," in which I want to implement some models and strategies based on the papers cited below. I found session 6. WSDM 2013: Rome, Italy, interesting because it pertains to my topic of discussion which focuses on web mining, prediction and recommendation. The requirement for predicting the symptoms of users would be defined as any action that adapts the information and or services provided by a database to the need of a particular user. Therefore, this database would be taking advantage of the knowledge gained from web browsing of the user. Implementation strategies such as symptoms diagnosis, diagnosis popularity, and diagnosis performance can be derived from the three first papers I have chosen, which can be applied to a database only based on medical sources. The development of each one of these strategies would allow us to build a hybrid system to better diagnose a medical problem and recommend a treatment protocol. This type of system would allow us to predict a medical diagnosis of symptoms that currently afflict users. It would also give them recommendations for treatment based on their, or other users with similar problems, prior symptoms. This would also contribute to the implementation of a personalized system that would allow users to rank their diagnosis accordingly, as well as to diagnose other users with similar symptoms. In order to develop this type of system, it is very important to implement a cleaning and preparation process of the data. Typically, the data recorded in medical databases is sparse and collected with no concerted effort to maintain data quality. For this process, I am using as a reference research papers such as "Discover of Temporal Patterns in Sparse Course-of Disease Data," "Data Quality in Genome Databases," and "Exploration Mining in Diabetic Patients Findings and Conclusions." These research papers, the last three papers cited below, use different cleaning techniques to prepare the data to understand the overall process of knowledge discovery in a medical database environment.\newline
+
+\section{Introduction}
+\label{Introduction}
+
+My project is based on the analysis of three different research papers. Each one of these papers deals with My project is based on the analysis of six different research papers, which I have classified into Data Cleaning and Data Mining Analyses. The Data Cleaning Analysis is based on three papers that deal with "Exploration Mining in Diabetic Patients Databases," "Discovery of Temporal Patterns in Sparse Course-of-Disease Data," and "Data Quality in Genome Databases." The Data Mining Analysis is based on three papers that deal with "Predicting Content Change on the Web," "Predicting the Popularity of YouTube Videos," and "Predicting Performance." After a careful analysis of these papers I have taken their logical structure and modified them to meet the objectives of my project. The main purpose of my system is to predict users' diagnosis based on their symptoms. However, to better implement my system, I have separated the data cleaning and mining process. I incorporated the strategies of the three logical structures, in each analysis, mentioned above and coalesced them into a single logical structure. By employing this method, not only will it make the analysis of each paper's technique easier, it may also improve the accuracy of my system.\newline
+
+In order to maximize full use of the two obtained logical structure, I created a classification system which comprises of three categories for the two analyses. The first one is composed by the following; data exploration, data discovery, and data quality. The second one is composed by the following; symptoms diagnosis, diagnosis popularity, and diagnosis performance. By itself, each one of these categories provides a unique function. However, when linked together, it will improve the process of reaching a diagnosis for an individual.\newline 
+
+First Analysis\newline
+In the first category of Data Exploration, derived from the first paper, the system would describe a semi-automatic means for cleaning a database of patients by exploring and understanding discovered rules. In the second category of Data Discovery, derived from the second paper, the system  would help understand the overall process of knowledge discovery in the medical database. In the third category, derived from the third paper, the system would compare error classes with existing solution  for data cleansing.\newline 
+
+Second Analysis\newline
+In the first category of Symptoms diagnosis, derived from the fourth papers' technique, the system would predict a user's diagnosis by matching symptom description with those found in a database. In the second category of diagnosis popularity, derived from the fifth paper' s technique, the system would allow users to know the diagnosis that have been predicted the most. This parameter would report to the system automatically and thus contribute to the improvement in accuracy of reaching a diagnosis. In the third category of diagnosis performance, derived from the sixth paper' s technique, the system would allow users to provide feedback of whether or not the diagnosis and recommendation for treatment were accurate. This would help the system become smarter, and to keep a record of the user' s accurate diagnosis which would also contribute to an improvement in accuracy.\newline
+
+Combining the above strategies, derived from all three papers in the first and second analysis, would allow us to build a more powerful and well-designed hybrid system to predict users' medical diagnosis accurately.\newline
+
+
+\section{Data Cleaning Analysis}
+\label{Data Cleaning Analysis}
+
+	
+	\subsection{Data Exploration}
+	\label{Data Exploration}
+	In this paper the authors came up with a semi-automatic data cleaning system to overcome the problem of noisy data. This system is based on a preliminary analysis of the database to reveal patient details such as their identification number, race, sex, date of birth, duration of diabetes, and date of screening. However, using their approach in my proposed system the analysis would be mostly based on the duration symptom(s) and any test done.\newline  
+	
+	Semi-Automatic Data Cleaning:\newline
+	This system is based on the “garbage in, garbage out” principle, which  is crucial before mining.  According to the authors, users are able to define mapping between attributes in different format, decide whether or not the attributes are to be kept in the cleaned database, generate a standardize format. This type of system would be perfect to use on the medical database(s) for the system I propose since, as the authors in this paper say, medical data records are very inconsistent. On the other hand,  this system is not as efficient because of the fact that it may cause duplicate records on to the system. Nevertheless, they made use of a sorted neighborhood method to remove any duplicate record. The idea of using addition techniques, such as scrubbing data fields, to pre-process the data records before sorting them would be a good approach to remove typographical errors in a medical database without worrying about duplicate records.\newline
+
+	Exploratory Mining Data:\newline
+	This paper focused on the mining of classification and association patters to provide description of the population having certain diabetic-related eye disease. They used this to predict whether a new patient is likely to have the eye disease. I noticed that with some modifications the same approach can be used to classify and associate user's symptoms to more accurately predict whether or not two users have the same disease. The algorithm they used to study how casual structures can be determined from association rules is LCD. This is polynomial algorithm, which they use with dependence, independence, and conditional independence variables to restrict the possible casual relationship between variables.\newline
+
+Markov Condition:\newline
+Let A be a node in a causal Bayesian network, and let B b any node that is not a descendant of A in the causal network. Then the Markov condition holds if A and B are independent conditioned on the parents of A. \newline
+
+The definitions of dependence and conditional independence are given as follows:\newline
+- Dependence Test\newline
+Let s $\in$ (0,1) be a support threshold and c $\in$ (0,1) be a confidence threshold. An itemset S $\subseteq$ I is said to be (s,c) correlated if the following two conditions are met:\newline
+
+1. the value of support (S) exceeds s;\newline
+2. the $x^2$ value for the set of items S exceeds the $X^2$  value at confidence level c.\newline
+
+- Independence test\newline
+Lets s $\in$ (0,1) be a support threshold and c $\in$ (0,1) be a confidence threshold. An itemset S subset and equal I is said to be (s,c)-uncorrelated if the following two conditions are met:\newline
+
+1. the value support(S) exceeds s;\newline
+2. the $x^2$ value for the set of items S does not exceed the $x^2$ value at significance level c.\newline
+
+- Conditional Independence Test\newline
+variables A and B are independent conditioned on C if p (AB|C) = p (A|C) p(B|C). The chi-squared test for conditional independence looks at the statistics $x^2$(AB|C=0) + $x^2$(AB|C=1), where $x^2$(AB|C=i) is the chi-squared value for the pair A, B limited to data where C=i. If $x^2$(AB|C=0) + $x^2$(AB|C=1) is greater than the threshold value $x\propto^2$, the A and B are said to be dependent given condition C.\newline
+
+Another implementation that would be of great use, when cleaning a medical database, is the new representation of the data used in this paper.  The  new representation, named general and exception rule representation.  The reason why this would be a good implementation is because the general rules give the underlying trend in the data, and the exception rules give the abnormalities of those trends. This would make database more intuitive and draw more attention to the interesting patterns.\newline
+
+	\subsection{Data Discovery}
+	\label{Data Discovery}
+	
+	This paper focused in discovering useful patterns in medical data to show group of patients having similar experiences during the course of a disease. This was done by implementing a Temporal Pattern Discovery or TEMPADIS. This system would ideal in a medical database, it would allow you to discover users with similar patterns to facilitate a diagnose prediction based on the similarity of their symptoms and other factors that may influence.\newline 
+
+Exploration of the Database and Preparation of the data\newline 
+This paper emphasize the importance of focusing on a subset of variables related to the knowledge to be discovered during the knowledge discover in databases (KDD) process, as explain in the following steps:\newline
+
+- Data Cleaning and Selection\newline
+The main purpose in this step is to remove the noise and develop strategies for comping with the sparseness of the data, and to handle any coming changes. This method can involve dimensionality reduction and transformation of the data to find invariant representations and inconsistent data. Their strategy can help to find useful features to represent data based on the user's symptoms.\newline 
+	
+	\subsection{Data Quality}
+	\label{Data Quality}
+	In this paper authors compare errors classes with existing data solutions to overcome possible issues that may occur when cleaning a medical database. They identify five classes for poor data quality, and these are experimental errors, analysis errors, transformation errors, propagated errors, and state data. These classes are necessary for the development of a medical database, and therefore, their approach towards issues that may occur during their implementation may be of useful. They developed detailed Information product Maps(IP-Maps), which is a technique that provides with a sound basis for quality improvement efforts. Using the methodology of this paper may not help me much to classify the data, but it could definitely help to focus on interesting patterns to know which classes of errors are produced at which stage and suggest domain-specific quality checks to reduce them.
+	
+	
+\section{Data Mining Analysis}
+\label{Data Mining Analysis}
+
+	\subsection{Symptoms Prediction}
+	\label{Symptoms Prediction}
+	
+	
+Based on empirical analysis, I have found that utilizing user' s symptoms as well as other users' related symptoms diagnosis improves prediction accuracy. The development of this assumption is based on the web prediction approach. Here, they use numerous similarity metrics to identify related objects and focus specially on measures of temporal patterns similarity. This approach is suitable for symptoms prediction because, like web pages, symptoms diagnosis also tend to change with time. This approach looks for changes in the distribution of query that lead to a diagnosis, impacting the relevance of the current diagnosis to the query. Also, they use a personalized retrieval that provides an accurate prediction from revisiting a page with new contents. This means that by implementing such an approach in my proposed system, it may enable us to have a more accurate prediction by pushing new content to a user whose symptoms have been previously diagnosed.\newline
+
+This paper considers the past observed values as a prediction' s means basic. An example of this in my proposed system would be as follows. When predicting a diagnosis, we can simply predict based on the diagnosis observed over past historical window. However, this approach would not be very efficient on a user who has no record or whose symptoms are new. Therefore, having a medical database in which the user's symptoms can be mapped is trivial. In particular, as reference by this paper, the content of the object (symptoms) would provide us with a finer distinction of the degree of change that a particular diagnosis may be under-doing, and the relationship among other diagnosis within a database. Unlike their approach, in order for this system to have an efficient prediction it must use the reverse logic of this strategy. The reason for this is because, they are considering more significant objects that experience vastly dissimilar changes. This approach would not be efficient in our case because there would be an overwhelming amount of diagnoses that could not possibly be handled by the system, assuming we have a huge medical database; second, it would not provide the right diagnosis, assuming we have a small medical database. However, the reverse logic of this approach would give us a diagnosis with similar patterns.\newline
+
+In this paper, their web setting approach are based on natural choices of relationships types that include, distance of the object graph, similarity content, and similarity in temporal change pattern. This setting approach would be perfect for a medical diagnosis prediction system as the one I am proposing. In order for me to adopt such a model, I would need to implement the algorithm mentioned in this section of the paper, known as DTW algorithm. This algorithm is especially novel and it provides robust computation of similar temporal change patterns by dealing with the case where content between two objects(symptoms) may be correlated in time but slightly out of phase. Also, they develop an expert combination approach where the experts are selected according to the degree of relatedness and demonstrate the model choice superiority to other relational techniques. The expert combination approach, as expressed in this paper, would enable us to best incorporate related information sources into a machine learning algorithm. In addition, they incorporate features based on the content of the object as well as the content of other related objects. For this approach they present a novel algorithm to combine the information in an expert prediction framework, which examines techniques for identifying related objects including objects with similar content, and those with correlated content across time. The advantage of using this method is that it is broad-based and we could easily incorporate additional features. Also, their framework implementation would allow us to effectively  leverage information from related objects without the need for sampling from the current time slice.\newline
+	
+This paper information sources could be useful for the proposed medical diagnosis prediction system. This can be explained in three types of information settings. First, 1D setting where only user' s diagnosis information in previous time-stamps is used to estimate a diagnosis. Second, 2D setting where using a wider range diagnosis information about a user' s diagnosis would help us to estimate a future diagnosis. Third, 3D setting in which the diagnosis of the user can be compared to other diagnoses in order to determine the probability of a current or future diagnosis. This is one of their given scenarios, where information from a previous diagnosis is available and observed over a period of time to induce a function that can be used to estimate diagnosis based on changes in the user's symptoms.\newline
+	
+In this paper, their web setting approach are based on natural choices of relationships types that include, distance of the object graph, similarity content, and similarity in temporal change pattern. This setting approach would be perfect for a medical diagnosis prediction system as the one I am proposing. In order for me to adopt such a model, I would need to implement the algorithm mentioned in this section of the paper, known as DTW algorithm. This algorithm is especially novel and it provides robust computation of similar temporal change patterns by dealing with the case where content between two objects(symptoms) may be correlated in time but slightly out of phase. Also, they develop an expert combination approach where the experts are selected according to the degree of relatedness and demonstrate the model choice superiority to other relational techniques. The expert combination approach, as expressed in this paper, would enable us to best incorporate related information sources into a machine learning algorithm. In addition, they incorporate features based on the content of the object as well as the content of other related objects. For this approach they present a novel algorithm to combine the information in an expert prediction framework, which examines techniques for identifying related objects including objects with similar content, and those with correlated content across time. The advantage of using this method is that it is broad-based and we could easily incorporate additional features. Also, their framework implementation would allow us to effectively  leverage information from related objects without the need for sampling from the current time slice.\newline
+
+This paper information sources could be useful for the proposed medical diagnosis prediction system. This can be explained in three types of information settings. First, 1D setting where only user' s diagnosis information in previous time-stamps is used to estimate a diagnosis. Second, 2D setting where using a wider range diagnosis information about a user' s diagnosis would help us to estimate a future diagnosis. Third, 3D setting in which the diagnosis of the user can be compared to other diagnoses in order to determine the probability of a current or future diagnosis. This is one of their given scenarios, where information from a previous diagnosis is available and observed over a period of time to induce a function that can be used to estimate diagnosis based on changes in the user' s symptoms.\newline
+
+\textbf{Framework Implementation:}\newline
+Their framework could easily be implemented in my proposed system. If we let O be a set of objects and C $\subseteq$ O be the goal concept. In our problem, O is the set of symptoms and C is the set diagnosis. In this paper, they applied a binary supervised learning setup that could be used in our framework as well. This is, h(o) = 1 <-> o $\in$ C and let E = \{o1, h(o1), ..., h(ok)\}, where oi $\in$ O and h(oi) $\in$ \{0,1\}, be a set of training examples. According to their implementation, we could extend this setup based on time in the following manner. Let T = \{0, 1, ..., $\infty$\} be a discreet representation of time, where h : OxT -> \{0,1\} is a temporal goal function and E = \{o1,t1,h(o1,t1),...,ok,tn,h(ok,tn)\} is a set of temporal training examples where oi $\in$ O, tj $\in$ T and h(oi,tj) $\in$ \{0,1\} Besides, this type of framework can use features of other objects. For example, they implement the function fi: Ok -> Im(fi) that simulates a prediction determined on the content similarity of the predicted page o with the other objects that are fed as input to produce h(o,t). The diagnosis prediction, based on their based implementation, could represented as following:\newline
+
+Diagnosis(Symptoms(t))= 1 -Symptoms(t) matched found.\newline
+Diagnosis(Symptoms(t))= 0 -Symptoms(t) matched not found.\newline
+
+On the other hand, they intuitively assumed that the degree of content similarity and the similarity between content B that changed and A' s full content may be indicative of the relationship strength. This means that accurate diagnosis from other users with similar symptoms may completely change a user' s diagnosis due to its relationship strength indicator.\newline
+
+\textbf{Algorithms}\newline
+This paper used different type of algorithms based on their solution framework. Among these algorithms, the base line algorithm is found to be more suitable for my project implementation. This algorithm' s prediction is based on probability of users' symptoms and on the past training examples. In my case this training would be part of a medical database. This could be expressed as follows:\newline
+
+P(h(oi,ti) = 1|(h(oi,tk) $\in$ E, where tk < tj and (tj-tk)$\leq$1)\newline
+
+\textbf{Algorithm Using Related Objects}\newline
+They use the related objects algorithm to collect information from other sources, such as a medical database in our case, into a single expert. This is used along with the use of multiple models to boost performance. This algorithm would be suitable for me to implement since it would consider multiple diagnoses features with those of the user.\newline
+
+\textbf{Relational-Union and Stacking algorithm:}\newline
+The RU algorithm was used in this paper to extract an instant from the test and give this as an input to provide prediction. The way this was achieved was by using SVM classifier based on their objective, and creating scenarios relational features through the collection of features over related objects. Another algorithm explained in this paper is the bagging method. This, combined with majority voting, can be selected to use a trained model for each of the k-training sets. On the other hand, they applied a technique named graph KNN to identify the experts of an object by using in-link. Also, this same algorithm is used to find the closest neighbour by using an undirected representation of the links with a single step.\newline
+
+DTW would measure the similarity of two time series as a function of both time-lag and speed. For example, DTW will give high score to the similarity of symptoms in A and symptoms in B, even if A differs more than B, but they will have a similar patterns. DTW is a dynamic programming algorithm that tries to find an optimal match of the time series by stretching and compressing section of those time series. Another interesting technique that can be thought as a simple case of DTW is Cross-correlation. This is a measure of similarity of to time series as a function for the time-lag that can be applied to the diagnosis prediction process. This analysis can be implemented in this system as shown below. Here, d = 1...N is a possible delay, N is the minimal time series length, lambda is the time series variance, and E is the means of the corresponding series. The delay with the best correlation is chosen as the similarity.\newline
+
+\includegraphics[scale = 0.5]{first.eps} 
+
+This paper discuss several methods that reduce the size of every time series. This is done by dividing a method into frames where the time-series similarity algorithm can be performed later. This is one of the ways to efficiently identify similar series in a large database, and this is applied through the DTW algorithm. One additional concern presented in this project is that sorting snapshots is expensive because the scale prediction task is perform by multiple iterations. However, there is one method that can be used for the same purpose and this is cross-correlation. This method finds temporal experts with the best performance in our empirical study, such computation is on-line with no need to store the previous snapshot. In this paper they prove that the more information they have, the more improves the prediction over the usage of objects. This implementation would of useful in the development of my system. Here, they offer several ways of combining information from related objects, but would the most efficient one to find similarities in symptoms as object and predict based on prior information form the user itself or other users.\newline
+	
+	\subsection{Diagnosis Popularity}
+	\label{Diagnosis Popularity}
+	
+This section is based on the paper titled Using Early View Patterns to Predict the Popularity of YouTube Videos. This paper presents two simple models to predict the future popularities of YouTube videos. Even though this topic may be completely different to my topic of interest, it still makes use of important models and techniques that support the design and evaluation of a wide range of systems. This could positively influence the accuracy and efficiency of a system, such as the one I proposed, because their application brings along an enormous and ever growing amount of users generated content. According to this paper, their implementation would bring support that would drive the design and management of various services in my system. In other words, managing those diagnosis that are more likely to happen first, in a certain period of time, would help my system to be more efficient since it would disregard a huge amount of data.\newline
+
+\textbf{Performance:}\newline
+The performance applied in this paper could easily be implemented in my system. The reason why is because they only evaluate the performance of their prediction models, this could easily be done by just getting a simple binary feedback from the user identifying whether or not the diagnosis has been correct. This is how the performance criterion of my system would be based on this paper model.\newline
+
+\includegraphics[scale = 0.5]{second.eps} 
+
+Therefore, for a collection C of multiple diagnosis, where C is one category for example flue. The mean RSE would be defined as follows: \newline
+
+In this paper they only make use of the RSE implementation and not the mean RSE. This is because various services, for which popularity prediction is useful, relative errors tend to be more relevant and meaningful than absolute ones. However, in our case both implementation would be useful. This is because my system performance evaluation would be much simpler than the one elaborated in this paper since it is based on a simple set of Boolean values in each category.\newline
+
+\includegraphics[scale = 0.5]{third.eps} 
+
+\textbf{Framework:}\newline
+The models implemented in this paper are the S-H, ML, and MRBF model. One disadvantage of their method, which is not needed in my implementation, is that they require full information about users' votes in order to build user profiles. In our case, all we would need from the user is a confirmation based on whether the predicted diagnosis was corrected or not. This would allow my system to create a dataset of correct diagnosis that have been predicted more frequently than others. This would be the first dataset that my system would query to predict a diagnosis.\newline
+
+\textbf{Szabo-Huberman (S-H) Model:}\newline
+I believe that this is a very important model in my system. The reason why is because in diagnosis, such as the flue and others, the system would be able, based on observation, to expressed the future popularity of this diagnosis. This feature would allow us to prevent epidemic and or diseases from spreading. Based on this paper's model we can implement the S-H model for the proposed system in the following manner:\newline
+
+\includegraphics[scale = 0.5]{four.eps} 
+
+In this case, parameters (tr); tt is independent of the diagnosis v. Therefore, the future popularity of v is related to its early one by constant factor if tr and tt are fixed Based on this paper S-H implementation, the optimal value for (tr) ,tt with any given pair (tr; tt) can be computed in a given training set C of diagnosis. Using their expression for N(v; tr; tt)) from which they took its derivative and equated it to zero, the procedure would lead to the following expression:\newline
+
+\includegraphics[scale = 0.5]{five.eps} 
+
+Multivariate Linear (ML) Model: Another model used in this paper is the ML Model. According to their implementation the ML model is more powerful than the S-H model. The reason to this is because it allows assignment of different weights in each sampling interval.\newline
+
+\textbf{MRBF Model:}\newline
+In this model they alter the prediction of a single parameter set ML model based on the similarity to certain videos. In their case, if a training set of videos compass the various popularity patterns, it indirectly incorporates information about the pattern of the video for which they predict the future popularity and adapt the prediction model to it. The technique they use to avoid this issue could also work to keep diagnosis with the same popularity from being in the same category. This technique is named Radial Basis Functions (RBFs). RBF is a real valued function whose value depends only on the distance between its inputs and the center as a given point. Based on their implementation, it is possible to create a Gaussian RBF with it as the center and capture its similarity with a target diagnosis in the following manner:\newline
+
+\includegraphics[scale = 0.5]{six.eps} 
+
+In this case, lambda is the parameter and X(v) is the ML model feature vector for the diagnosis v. From this, it is possible to compute the RBFvc, as referenced in this paper, and use it as one of the features in the prediction model as shown below, where C would be the set of training set examples chosen as centers and Wvc is the model weight associated with the RBF feature for vc used for prediction purpose.\newline
+
+\includegraphics[scale = 0.5]{seven.eps} 
+
+In this paper, they classify their dataset into Top and Random. I believe that only random or top dataset would not be as efficient for the proposed system. Having both datasets as part of my system may improve its efficiency by first querying the dataset that contains diagnosis with the highest popularity, and if this is not found then system would proceed to query the random data. This would avoid extensive search on diagnosis such as flue, allergies, among others, but it may take long for those diagnosis that have rarely been diagnosed in certain time period. Also, they removed many videos from their databases just because they were missing information. This may seem the models implementation a bit less realistic for my system. However, due to the simplicity in which popularity of a diagnosis would be measure I believe it would give a result just as good or better as their implemented models.\newline
+
+	\subsection{Diagnosis Performance}
+	\label{Diagnosis Performance}
+	
+The paper used in this section is titled "Have You Done Anything Like That? Predicting Performance Using Inter-category Reputation."This is the third paper and it is based on a reputation system that uses the average of past performance across all transactions. This works by often adding a time-discounting mechanism or weighting feedback ratings by the size of the transaction. They explored how the past reputation of specific  tasks can be used to predict the future performance of on other different tasks. Another approach that relates to their work is that based on on-line helpfulness reviews and community question answering. They also investigated various approach to predict review helpfulness that can exploit different sets of features.\newline 
+
+\textbf{Framework:}\newline
+They framework below are some of those that are covered in this paper and that could highly help my system to improve in terms of accuracy and or efficiency. First, the use non-textual features such as click counts. This technique has been seen in platforms such as Yahoo! Answers, among others. Second, exploring community feedbacks to identify high quality content in CQA platforms. Third, extracting high quality answers, with only few labeled examples, through a developed semi-supervised coupled mutual reinforcement framework. Fourth, extracting high quality answers from the CQA platform by considering both quality and relevance. Finally, using trained classifier that select the highest quality answers.\newline
+
+\textbf{Algorithm:}\newline
+In this paper, they assume that the user had enough feedback ratings and had enough task completed in category j. Therefore, they use the user' s prior performance to predict the performance for a new task in the same category. This feature at first may not seem as important as it is to a system such as the medical diagnosis prediction system. Nevertheless, this feature may turn my system into a more reliable and powerful system. The reason to this is because by monitoring the performance of users the system would be able to predict future performance on a medical perspective. In other words, the system would be able to predict users' future diagnosis and or complications due to the user prior and current medical or diagnose performance. To implement such algorithm, based on this paper, we can divide such algorithm into two different  approach.\newline 
+
+First, the Binomial Approach, this is a very simple setting used to examine the case where user is performing diagnosis only within a category. In our case, this means only within one diagnosing group such as flue. Now, given a past history of n diagnosis within the given category, assuming the current quality is known q(i; j) of the user in category j, x would be the expected diagnosis as "good" to follow a binomial distribution. Based on the approach implementation in this paper, using Bayesian statistics it may be possible to infer q(i; j) based on the number of good or bad diagnosis, an example of this is shown in figure 8. 
+
+\includegraphics[scale = 0.5]{eight.eps} 
+
+Second, the Multinomial Approach, which according to this paper is used for more complex tasks. They use this approach to extend previous model and account for a range of discreet outcomes to get a multinomial distribution of K possible outcomes, as shown in figure 9.
+
+\includegraphics[scale = 0.5]{nine.eps}  
+
+I do not agree with the fact that they assume the binomial feedback is only used for small tasks. The reason why is because the difficulty of a task depends mostly on the algorithm in which you are applying such approach as well as its implementation.\newline
+
+\textbf{Point Estimate:}\newline
+In this paper they use parameters to evaluate their models. One of the parameter 2 (0,1) and it represents the threshold that separates good outcomes from bad outcomes. Below are two image representation of the estimated points based on the two approaches implemented in this chapter, the Binomial and Multinomial approach.\newline 
+
+In the binomial case the prior $\beta$($\propto$; $\beta$) or value of $q$(i,j) is:\newline
+
+\includegraphics[scale = 0.5]{ten.eps} 
+
+In the multinomial model the prior D($\propto$), where $\propto$ = $\propto$1,,$\propto$k,,$\propto$K the mean value of q(i,j) is:\newline
+
+\includegraphics[scale = 0.5]{eleven.eps} 
+
+\section{Conclusion}
+\label{Conclusion}
+
+I was able to develop a theoretical implementation of my topic based on the analyses of each one of the three papers selected for each analysis. The three papers, in each analysis, differ vastly in their approach and implementation strategy. However, the common denominator with the papers is that they all implement algorithms and techniques whose purpose is to clean the data and predict an output based on the behaviour of an input. After meticulous analysis of the strategies implemented in the papers, I realized that I could easily incorporate a similar model in my system, whose main objective is to clean and prepare a medical database to predict a diagnosis based on the symptoms of an user. Mapping each paper to one of my three main categories proved useful because this helped to identify the importance of the logical structure of each paper so that it could be assigned to a substructure of the logical structure in the system I am proposing. Furthermore, the task being performed by the algorithm developed from each paper is unique and complementary to one another. The reason for this can be explained in the following manner. In the first analysis all three papers share one goal in common, which is to clean and prepare the data before any mining algorithm is implemented. In the second analysis, its development can be explained as following. In the first paper titled "Predicting Content Change on the Web," which can be thought of as the main substructure used to predict a user's diagnosis. However, if we were to implement this based on the strategy used in this paper, along with other techniques, the outcome would not be very efficient. The reason for this is because it would take too long to give an answer, assuming we are using a large medical database; this may also prove to be inaccurate. Also, it may not be diagnostic at all, assuming we are using a small dataset. On the other hand, if we incorporate the strategy of the second paper titled, "Using Early View Patterns to Predict the Popularity of YouTube Videos," we would be incorporating a very useful technique which would enable the system to have two classified datasets in which most diagnoses with the highest popularity would be queried first, followed by those that are not. This would speed up the system and make it run in a more efficient manner. Also, it would allow the system to personalize the data and classify it in a well organized way through user feedback. Furthermore, if I incorporated to my system the strategies obtained from the third paper titled "Have You Done Anything Like That? Predicting Performance Using Inter-category Reputation,"we would be reinforcing not only the feedback given by the user to the system, but also incorporating a strategy that would provide users with recommendations and feedback based on the system's medical performance. This combination would be advantageous for the user, as well as institutions and society at large, in order to prevent and avoid epidemics or any diseases from spreading. Finally, although none of the three papers had anything in common based on their titles, from an algorithm perspective all shared the same goal of prediction. This goal is what I based most of my analyses on in order to make use of the strategies and techniques outlined in the papers. There were instances in which I did not agree with the implementation and techniques in the three papers because it was not pertinent to the logical structure of my system. Examples of these include the Multinomial approach and the Random Sampling that were implemented in the third paper and strategies such as ML and MRBF are not really necessary for implementation in my system. Also, strategies and techniques were tested on separate datasets. Even with such discordance, I found that all papers contained adequate and important information that could be potentially useful to clean, prepare, and implement the Big Data Medical Diagnosis System.
+
+
+\section{Reference}
+\label{Reference}
+
+[1] Henrique Pinto, Jussara M. Almeida, and Marcos Andre Goncalves: Using early view patterns to predict the popularity of youtube videos." 365-374.\newline
+
+[2] Kira Radinsky, Paul N. Bennett: "Predicting content change on the web." 415-424.\newline
+
+[3] Marios Kokkodis, Panagiotis G. Ipeirotis: Have you done anything like that?: predicting performance using intercategory reputation." 435-444.\newline
+
+[4] Jorge C. G. Ramirez1,2, Lynn L. Peterson1, Diane J. Cook1, Dolores M. Peterson2: Discovery of Temporal Patterns in Sparse Course-of-Disease Data." Department of Computer Science and Engineering University of Texas at Arlington 1-23.\newline
+
+[5] Heiko M~ Aijller, Felix Naumann, Johann-Christoph Freytag: DATA QUALITY IN GENOME DATABASES." Humboldt University Berlin, Germany 1-16.\newline
+
+[6] Wynne Hsu, Mong Li Lee, Bing Liu, Tok Wang Ling: Exploration Mining in Diabetic Patients Databases: Findings and Conclusions." School of Computing National University of Singapore 1-7.\newline
+
+\bibliographystyle{abbrv}
+\bibliography{report}
+\end{document}
+
+
+
+
+
+
+
+

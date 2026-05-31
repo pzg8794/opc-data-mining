@@ -1,0 +1,75 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     Hungarian-weka.filters.unsupervised.attribute.MathExpression-EA / pow(2.71828, ceil(log(A)))
+Instances:    294
+Attributes:   14
+              Age
+              Sex
+              Cp
+              Trestbps
+              Chol
+              Fbs
+              Restecg
+              Thalach
+              Exang
+              Oldpeak
+              Slope
+              Ca
+              Thal
+              Num
+Test mode:split 70.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+Exang = 0
+|   Cp = 1
+|   |   Sex = 0: 0 (5.0)
+|   |   Sex = 1
+|   |   |   Age <= 0.842522: 1 (4.0)
+|   |   |   Age > 0.842522: 0 (2.0)
+|   Cp = 2: 0 (96.7/3.0)
+|   Cp = 3: 0 (46.0/7.0)
+|   Cp = 4
+|   |   Restecg = 0
+|   |   |   Thalach <= 0.875936: 1 (30.0/11.0)
+|   |   |   Thalach > 0.875936: 0 (14.0/2.0)
+|   |   Restecg = 1: 0 (7.0/1.0)
+|   |   Restecg = 2: 0 (0.0)
+Exang = 1: 1 (89.3/19.3)
+
+Number of Leaves  : 	10
+
+Size of the tree : 	16
+
+
+Time taken to build model: 0.02 seconds
+
+=== Evaluation on test split ===
+=== Summary ===
+
+Correctly Classified Instances          67               76.1364 %
+Incorrectly Classified Instances        21               23.8636 %
+Kappa statistic                          0.4855
+Mean absolute error                      0.3228
+Root mean squared error                  0.4259
+Relative absolute error                 68.0925 %
+Root relative squared error             85.0625 %
+Total Number of Instances               88     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.922     0.459      0.734     0.922     0.817      0.806    0
+                 0.541     0.078      0.833     0.541     0.656      0.806    1
+Weighted Avg.    0.761     0.299      0.776     0.761     0.749      0.806
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 47  4 |  a = 0
+ 17 20 |  b = 1
+

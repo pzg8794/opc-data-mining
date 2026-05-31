@@ -1,0 +1,47 @@
+Attributes
+----------
+1.  age
+2.  sex -- 1 = male, 0 = female
+3.  cp -- chest pain type (categorical)
+4.  trestbps -- resting blood pressure (mm Hg)
+5.  chol -- cholesterol (mg/dl)
+6.  fbs -- fasting blood sugar > 120 mg/dl (1 = true, 0 = false)
+7.  restecg -- ekg result (categorical)
+8.  thalach -- max heartrate
+9.  exang -- exercise-induced angina (binary)
+10. oldpeak -- ST depression induced by exercise relative to rest
+11. slope -- slope of peak exercise ST segment (categorical)
+12. ca -- number of major vessels colored (0-3)
+13. thal -- 3, 6 or 7 (categorical)
+14. num (the predicted attribute) -- diagnosis of heart disease
+      0: < 50% diameter narrowing
+      1: > 50% diameter narrowing
+
+
+Numerical attributes
+--------------------
+1.  age
+4.  trestbps 
+5.  chol 
+6.  fbs 
+8.  thalach 
+10. oldpeak 
+12. ca 
+
+1. Min-max normalization: 
+   (weka filter unsupervised.attribute.mathexpression)
+
+   Eqn: v' = ((v - min_a) / (max_a - min_a)) * (new_max_a - new_min_a) + new_min_a
+
+   -- Values:
+	 new_max_a = 1
+	 new_min_a = 0
+
+   ==> simplifies to
+
+   v' = (v - min_a) / (max_a - min_a)
+
+
+   -- Normalize each numeric attribute using above formula and values
+
+

@@ -1,0 +1,88 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% load url from future %}
+{% block title %} Welcome {% endblock %}
+
+
+
+{% block content %} <br> 
+
+
+<link href="{{ STATIC_URL }}css/facebook.css" type="text/css" rel="stylesheet" media="all" />
+{% include 'django_facebook/_facebook_js.html' %}
+
+
+  <div style="margin-top: 60px;float:right;margin-right: 20%;margin-top: 30%;">
+
+
+
+{% if not user.is_authenticated %}
+
+<div class="inner_content">
+
+<form action="{% url 'facebook_connect' %}?facebook_login=1" method="post">
+<a href="javascript:void(0);" style="font-size: 20px;" onclick="F.connect(this.parentNode);"><img src = "{% static "city/images/signup.png" %}" /></a>
+<input type="hidden" value="/city/searchPlace" name="next" />
+<input type="hidden" value="/city/searchPlace" name="register_next" />
+<input type="hidden" value="{{ request.path }}" name="error_next" />
+{% csrf_token %} </form>
+
+
+</div>
+
+{% endif %}
+
+
+	{% if user.is_authenticated %}
+	<div class="inner_content">
+            <p>
+            Thank you for logging in with Facebook.            
+            </p>
+		<form action="/city/saveDataUser" method="POST" > {% csrf_token %}
+            <table id="rounded-corner">
+                <thead>
+                    <tr>
+                        <th>Field</th>
+                        <th>Data</th>
+                        <th>Image</th>
+                    </tr>
+                </thead>
+               
+                <tr>
+                    <td>First Name:</td><td> <input type="text" name="first_name" value="{{ user.first_name }}" readonly> </td><td></td>
+                </tr>
+                <tr>
+                    <td>Last Name:</td><td><input type="text" name="last_name" value="{{ user.last_name }}" readonly> </td><td></td>
+                </tr>
+                <tr>
+                    <td>Gender:</td><td><input type="text" name="gender" value="{{ user.profile_or_self.gender }}" readonly> </td><td></td>
+                </tr>
+                <tr>
+                    <td>About me:</td><td><input type="text" name="about" value="{{ user.profile_or_self.about_me }}" readonly> </td><td></td>
+                </tr>
+                <tr>
+                    <td>Facebook profile url:</td><td><input type="text" name="profile_url" value="{{ user.profile_or_self.facebook_profile_url }}" readonly> </td><td></td>
+                </tr>
+                
+                    <input type="hidden" name="facebookid" value="{{ user.profile_or_self.facebook_id }}">
+                
+                <tr>
+                    <td>Date of Birth:</td><td><input type="text" name="dob" value="{{ user.profile_or_self.date_of_birth }}" readonly> </td><td></td>
+				</tr>
+                <tr>
+                    <td>Website Url:</td><td><input type="text" name="url" value="{{ user.profile_or_self.website_url }}" readonly> </td><td></td>
+                </tr>
+                
+                <tr>
+                    <td></td><td>Hotlinked Image:</td><td><img src="http://graph.facebook.com/{{ user.profile_or_self.facebook_id }}/picture?type=large" title="facebook stored image" /><br /></td>
+                </tr>
+            </table>
+      <input type="submit" value="Agree" />
+	</form>	
+      </div>
+{% endif %}
+
+
+{% endblock %}
+        
+      

@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% load url from future %}
+{% block title %} Places {% endblock %}
+
+{% block content %}
+
+
+
+<a href="{% url "searchPlace" %}"><span>new Search</span></a>
+	<ol>
+		<li>
+			<img src = "{% static "city/images/plots/plot1.png" %}" />
+		</li>
+		<li>
+			<img src = "{% static "city/images/plots/plot2.png" %}" />
+		</li>
+		<li>
+			<img src = "{% static "city/images/plots/plot3.png" %}" />
+		</li>
+	</ol>
+		
+{% endblock %}

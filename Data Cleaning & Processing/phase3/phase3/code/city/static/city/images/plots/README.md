@@ -1,0 +1,13 @@
+# plots
+
+Path: `Data Cleaning & Processing/phase3/phase3/code/city/static/city/images/plots`
+
+## Items
+
+- `plot1.png` (file)
+- `plot2.png` (file)
+- `plot3.png` (file)
+
+## Notes
+
+This directory was indexed from the old Portafolio Drive source. Large binaries and archives may remain Drive-only.

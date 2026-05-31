@@ -1,0 +1,51 @@
+{% load staticfiles %}
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+	<TITLE>{% block title%} Best time for traveling{% endblock %}</TITLE>
+	<link rel="stylesheet" type="text/css" href=" {% static "city/css/default.css" %}">
+	<link rel="stylesheet" type="text/css" href=" {% static "city/css/menu.css" %}">
+	<script type="text/javascript" src="{% static "city/js/menu.js" %}"></script>
+	
+
+	<div id="menu" style="font-family: museo-slab,Georgia,Utopia,Charter,serif;">
+    <ul class="menu" style="width: 100%;">
+        <li><a href="{% url "index" %}" class="parent" ><span>Home</span></a>
+            
+        </li>
+        {% if user.is_authenticated %}
+        <li><a href="{% url "searchPlace" %}" class="parent"><span>Search-Place</span></a>
+            
+        </li>
+        <li><a href="{% url "placeListing" %}"><span>Places</span></a></li>
+        
+        {% endif %}
+        <li class="last"><a href="#"><span>Contacts</span></a></li>
+        {% if user.is_authenticated %}
+        <li style="float: right;padding-right: 10%;">
+        <a href="#" class="parent">
+        	<span>
+        	<img style="height: 30px;" src="http://graph.facebook.com/{{ user.profile_or_self.facebook_id }}/picture?type=large" title="facebook stored image" />
+        	{{ user.first_name }} {{ user.last_name }} -
+        	My Account
+        	</span>
+        </a>
+        <ul class="root">
+		<li ><a href="{% url 'auth_logout' %}?next={{ request.path|urlencode }}">logout</a></li>
+		</ul>
+        
+        </li>
+        {% endif %}
+    </ul>
+</div>
+</HEAD>
+
+<BODY>	
+	<SECTION>
+		{% block content%}
+		
+		{% endblock %}
+	</SECTION>
+</BODY>
+
+</HTML>

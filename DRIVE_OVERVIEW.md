@@ -1,0 +1,61 @@
+# Drive Overview
+
+Source: https://drive.google.com/drive/folders/1A2zgFRN7sovwpr9JqKaohbfIA7h5UBCI
+
+Showing up to 120 entries from max depth 2. Total listed at that depth: 55.
+
+- `.DS_Store`
+- `AnnotatedBibliographyHowTo.pdf`
+- `BigData/`
+- `Data Cleaning & Processing/`
+- `DataSets.pdf`
+- `DecisionTrees-20124.pdf`
+- `First Week/`
+- `HW1/`
+- `HW2/`
+- `IntroClassification-1R.pdf`
+- `MSProjectReport.pdf`
+- `NaiveBayes-20124.pdf`
+- `dm.pdf.pdf.pdf`
+- `BigData/27F157AL5Enhanced ER-diagram.ppt`
+- `BigData/BDHW6/`
+- `BigData/ERD_Examples.ppt`
+- `BigData/HW9.pdf`
+- `BigData/Homework9.doc`
+- `BigData/Q2Hw8/`
+- `BigData/h7bd/`
+- `BigData/hw5/`
+- `BigData/hw8bd/`
+- `BigData/hw9.doc`
+- `BigData/question3.R`
+- `HW2/HW2.pdf`
+- `HW2/TeamProjectExample.pdf`
+- `HW1/.DS_Store`
+- `HW1/DirtyDataAssignment.pdf`
+- `HW1/DonationData.csv`
+- `HW1/TermProject.pdf`
+- `First Week/.DS_Store`
+- `First Week/CRISP-DM.pdf`
+- `First Week/CRISP-Slides.pdf`
+- `First Week/DataDataCleaning-20124.pdf`
+- `First Week/DataMining-Intro.pdf`
+- `Data Cleaning & Processing/.RData`
+- `Data Cleaning & Processing/.Rhistory`
+- `Data Cleaning & Processing/Class Documents/`
+- `Data Cleaning & Processing/Data Cleaning/`
+- `Data Cleaning & Processing/Data Cleaning & Processing/`
+- `Data Cleaning & Processing/Data Files/`
+- `Data Cleaning & Processing/GroupProject/`
+- `Data Cleaning & Processing/Paper1.pdf`
+- `Data Cleaning & Processing/Paper2.pdf`
+- `Data Cleaning & Processing/Paper3.pdf`
+- `Data Cleaning & Processing/Phase2/`
+- `Data Cleaning & Processing/Stuff/`
+- `Data Cleaning & Processing/TermPaper/`
+- `Data Cleaning & Processing/TermPaper1.docx`
+- `Data Cleaning & Processing/Weeks/`
+- `Data Cleaning & Processing/code.zip`
+- `Data Cleaning & Processing/davetang.org-Using_R_to_obtain_basic_statistics_on_your_dataset.pdf`
+- `Data Cleaning & Processing/phase3/`
+- `Data Cleaning & Processing/report (1).pdf`
+- `Data Cleaning & Processing/report.pdf`

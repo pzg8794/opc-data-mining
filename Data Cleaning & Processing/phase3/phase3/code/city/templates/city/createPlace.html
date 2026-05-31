@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% load url from future %}
+{% block title %} Create a Place {% endblock %}
+
+{% block content %}
+
+	<form action="/city/createPlace" method="POST"> {% csrf_token %}
+	<ul>		
+			{{ form.as_ul }}
+	</ul>
+			
+			<input type="submit" value="send">
+	</form>
+			
+
+{% endblock %}

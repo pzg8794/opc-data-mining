@@ -1,0 +1,16 @@
+body
+{
+			
+	background-image:url('images/bck.png');
+	
+	
+}
+#image_logo
+{
+	height: 70%;
+	width: 100%;
+}
+.city_select
+{
+	height: 150px;
+}

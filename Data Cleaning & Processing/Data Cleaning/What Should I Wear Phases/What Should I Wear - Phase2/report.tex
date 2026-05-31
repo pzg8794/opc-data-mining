@@ -1,0 +1,236 @@
+% This file is based on the "sig-alternate.tex" V1.9 April 2009
+% This file should be compiled with V2.4 of "sig-alternate.cls" April 2009
+
+\documentclass{sig-alternate}
+
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{color}
+\usepackage{enumerate}
+\usepackage{balance}
+\permission{}
+\CopyrightYear{2013}
+
+\usepackage[english]{babel}
+\usepackage{blindtext}
+
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd{\maketitle}{\@copyrightspace}{}{}{}
+\makeatother
+
+%\crdata{0-00000-00-0/00/00}
+\begin{document}
+
+%%% Maketitle metadata
+\newcommand{\horrule}[1]{\rule{\linewidth}{#1}} 	% Horizontal rule
+
+\title{
+		%\vspace{-1in} 	
+		\usefont{OT1}{bch}{b}{n}
+		\normalfont \normalsize \textsc{Rochester Institute of Technology} \\ [25pt]
+		\horrule{0.5pt} \\[0.4cm]
+		\huge What Should I Wear \\
+		\horrule{2pt} \\[0.5cm]
+		\vspace{-10mm}
+}
+
+\author{
+		\normalfont 								\normalsize 
+        Piter Garcia and Anthony Castiglia\\[-3pt]		\normalsize
+        \today
+}
+\date{}
+\maketitle
+\begin{abstract}
+
+The aim of this project is to learn and implement the techniques of Data Cleaning and Preparation for data mining. In this project, we would be using weather data sets from various locations of the United States to show the weather trends in a particular area and use them for prediction. In particular, Data Mining techniques will be used to analyse past weather patterns for different locations and predict, for example, whether or not a person should wear a coat or shorts depending on the weather trends. We are going to design an interface for people who need help in deciding what to wear when planning a trip. The input of this would be taken from users, such as the approximate dates they would be going on a trip and the city as well.
+
+\end{abstract}
+\vspace{5 mm}
+
+\section{Overview}
+\label{overview}
+
+The logical structure of our project is composed of three main sub-structures, which better describe the milestones achieved throughout our project development. These substructures are classified as Architecture and Implementation, Data Design. Each section explains in detail the main steps taken to model and structure a database with our interface to meet the project specifications. Each one of these substructures depend on the database and interface development.\newline
+
+In the database section three main sub-sections take place in order to make the database usable. These sections include Cleaning, Design, and Tables. First, in the formatting section, we will elaborate how our datasets are formatted, the process taken to make our datasets easy to read by avoiding noisy data and giving them an appropriate format. Second, in the Design section, we will explain the design of our database in terms of appearance, structure and performance. Lastly, in the Tables section, we will describe the process taken to load and distribute our datasets into their appropriate tables. Also, we will explain how each table is generated as well as their functionality. The dataset consists of temperature and precipitation of multiple cities from different areas of the United States. The interface that we are obtaining these datasets from has been collecting weather data from these areas for the past 54 years. The large collection of data will definitely help us in finding the weather trends of a city and making our results more reliable. The aim of this project is to obtain the cleanest data possible to make querying for weather information and suggestions easy and reliable.\newline
+    
+The interface development process is explained within the design, registration, and features sub-sections, respectively. First, in the design sub-section, our interface is planning to be designed according to the appearance, structure, and performance we wanted our project to achieve. Second, in the registration sub-section, we will describe the process taken to create the appearance, structure, as well as techniques used to allow users to access our system in an efficient manner. Third, in features, we describe the functionality for each feature to be performed through the interface via our database and system analysis.\newline
+
+In particular, we will explain some tools and techniques used to achieve our goals in each one of the sub-sections explained in the Database and Interface sections. These subsections are explained separately in each sub-structure as the process taken in each one varied. Our main goal is to make querying for the weather information easy and reliable. This can be accomplished through our database and interface application by taking the input of users and providing them with a graphical output that can be easily interpreted.\newline
+
+\section{Database Considarations}
+\label{design considerations}
+
+\includegraphics[scale=0.2]{design.eps} 
+\newline In this project, the operational process of our design meets the objective of a high quality development which responds to real life scenarios in big data. The focus of this step is the development of an acceptable functional solution to the requirements of our project with an exterior design solution that is compatible with our database, interface, and our goal as a whole. A successful design development is needed in order to coordinate the activities of users and project architecture to meet our goal.\newline
+
+We have designed a website design of what we would like to be the platform to shape and implement our project according to our expectations. In order to fulfil the design and
+project patterns we are going to break down our approach in two sections. This will give the reader a better insight about our approach to build our system. The section 3 and session 4 better explain the structure of our project design. The section 3 explains how our database was obtained and how it is being used for our objective of the project. The section 4 explains how this database is implemented and developed towards the objective of our project. Finally, section 5 gives an update and better understanding of how close we are from reaching the goal of our project.
+
+
+\subsection{Database Design}
+\includegraphics[scale=0.2]{design2.eps} 
+\newline The image above is an example of how we would like the interface to interact with our database. This design is subjected to changes as we are still in the cleaning and preparation process of our database. This design is subjected to changes as we are still in the cleaning and preparation process of our database.\newline
+
+
+\includegraphics[scale=0.17]{fir.eps} 
+\includegraphics[scale=0.165]{sec.eps} 
+\newline Currently, we have reduced the amount of data we have, obtained from the online source cited below, due to our current design.  The reasons to this are the followings: First, we do not believe that more than 20 years of data is necessary to achieve the goal of this project. Second, the cleaning and preparation process of the data is taking too
+long because the data sets are too big for our computer processors to handle. Finally, the two images above is a comparison between our database before and after shrinking the data
+sets to 20 years of data. In order to do this, we used a Java program that we coded specifically for our database, which has been attached to the report.
+\newline
+
+We have also coded a Java program to modify the datasets according to our design. For our design it was necessary for us to have the average temperature as well as a class that specifies a level of approximation as to how cold or hot the place is. This would make it easier for us when applying normalization techniques to make datasets comparison much easier. Furthermore, we used R to test one of our dataset to observe its behavior when being normalized by an artificial neural network transfer function simulation. This is what we are originally using to create our overall database model and has precluded us from gathering weather datasets from 2000 until 2012. On the other hand, we will proceed to collect the necessary weather information from the time period mentioned above to obtain the dataset and include it in our database once our prototype is working as desired.
+\newline
+
+Dataset Model\newline
+\includegraphics[scale=0.3]{phase1-Model.eps} 
+\section{Architecture}
+\label{architecture}
+
+The structure of the interface implementation has not been utterly decided yet because our main focus, as right now, is the cleaning and preparation of the data for mining purpose. Nevertheless, we are considering to make use of PHP, HTML and MySQL programming tools to handle the data. Other programming tools such as Java and C++ to decode and reduce our data set as part of the preparation process before applying the techniques to learn for the data cleaning process. This is the process that will remove unwanted information such as noisy, repeated and not useful values to make the data useful for data mining. Moreover, we are planning to develop our own interface to allow users to interact with our underlying engine . In order to achieve this, cleaning techniques must be applied to convert all datasets into an usable and more meaningful database, and to remove all unwanted information to make the data more practical for the application while avoiding delays.\newline
+
+Data Set\newline
+We are using a data set provided by the University of Washington’s Surface Water Modeling Group. The data set contains daily and monthly records of daily total precipitation, maximum temperature, minimum temperature, and average 10-meter wind speed. The data is available both per-month and per-day for fifteen regions in North America. Data is available for all regions for dates ranging from 1949 to 1999, as well as earlier and later for some regions. This project will be focusing on the data that is available for all regions (from 1949 to 1999). \newline
+
+Data Cleaning\newline
+Since the purpose of this project is to predict weather given a certain future date, the data must be prepared for classification. To facilitate temperature range predictions, we have created a derived attribute from the numeric minimum and maximum temperature attributes. The attribute HOC is derived as follows, by binning records based on which range their maximum and minimum temperatures fall into:\newline
+
+T < 39\newline
+39 <= T < 59\newline
+59 <= T < 68\newline
+68 <= T < 77\newline
+77 <= T < 86\newline
+86 < T\newline
+
+Data Reduction\newline
+The data was filtered through our Java code to reduce our database to only 20 years of weather data in all datasets of each city in our database. We made apply the Z-score method which reduced the amount of data and range to work with, making testing easier and more efficient.\newline
+
+
+Data Modification\newline
+In other to make better use of the weather data provided by our database, it was necessary for us to make some modifications that can lead us to a better interpretation of the data. As we explained before, our weather data is based on the year, day, precipitation, max and min temperature, and we have added the average temperature, and temperature scale parameters. These attributes allow us to mine the data faster and more efficient, especially the temperature scale parameters which actually approximates the comfort level of the temperature. For example, if the temperature is very cold the temperature scale is 0. The maximum temperature scale is 5, and this means very hot.\newline
+
+Data Analysis and Classification\newline
+
+Database before Z-score method is applied:\newline
+\includegraphics[scale=0.4]{MatrixBeforeZscore.eps} 
+\newline\newline
+\includegraphics[scale=0.4]{BoxBeforeZscore.eps} 
+\newline
+
+Database Weather Information Only:\newline
+\includegraphics[scale=0.2]{MatrixCrudeData.eps} 
+\newline\newline
+\includegraphics[scale=0.5]{BoxCrudeData.eps} 
+\newline
+
+Database after Applying the Z-score method:\newline
+\includegraphics[scale=0.2]{MatrixZscore.eps} 
+\newline\newline
+\includegraphics[scale=0.2]{BoxZscore.eps} 
+\newline
+
+We made use of Matlab to make analysis of the our database after reducing it and applying the Z-score method. We use the matrix confusion plot and the box plot to analyze the weather data of each city. The images are only displaying one dataset of each city because the database is too big and a more complex algorithm must be applied to reduce it into a figure, similar to those displayed above. The first couple images are displaying the weather data related only to the average temperature, year and level of comfortability; this is before the Z-score was applied to our database. The second couple of images are displaying only the weather data information such as precipitation, max and min temperature, and average temperature. The last couple of images are displaying the same weather data values as the ones mentioned previously, except that we are applying Z-score in this one. As you can observe, these images say a lot about the these cities in terms of the weather temperature. The original data was hiding important information, as we observe, that can actually help us for the mining and prediction process development.\newline
+
+
+\section{Implementation}
+\label{implementation}
+
+The implementation of our project takes place once the weather and precipitation from most cities of the United States is cleaned and prepared for data mining. This data is used for analysis purpose to give the user an advice on what should be wearing based on the weather trends that have previously happened in a place of the user choice. We would like to take the datasets of the cities along with the user dataset to create another dataset that only contains cities that users in a cluster may like based on their behavior.
+
+\section{Current Status}
+\label{current status}
+
+We have gathered weather information of multiple locations of the United States for our database. This weather has been collected from 1980 till 2000, we most emphasize that collecting these datasets has been time consuming and has precluded us from gathering weather datasets from 2000 until 2012. However, we will proceed to collect the necessary weather information from the time period mentioned above to obtain the dataset and include it in our database once our prototype is working as desired.
+\newline\newline
+Classification of the Dataset\newline
+\includegraphics[scale=0.2]{phase1.eps} 
+\newline\newline
+Cluster Analysis of the Dataset\newline
+\includegraphics[scale=0.3]{phase1-2.eps} 
+\newline
+
+Besides the database model work explained in the "Data Design" section, we have done some analysis of one of the datasets in WEKA to give a visual representation of data. This visual representation, shown above, is the visual representation of what was explained in the tables response obtained from the work done in the "Data Design" section.  Furthermore, we have reduced our database to only 20 years of weather data from each city. We modified each datasets to include important parameters that can help us to mine the database in a easy manner. Also, we made use of MATLAB to apply the Z-score method for classification purpose. 
+\newline 
+
+We have actually developed an interface design for the platform where all this data manipulation and managing is to take place. All datasets that have been downloaded and are currently on a cleaning process to prepare them and make them usable for our SQL database.
+\newline 
+
+\section{Future Status}
+\label{Future status}
+The future work required can be categorized in the following three sections:
+
+\begin{itemize}
+
+	\item Big Data:\newline
+	We need to design a system that asks users to designate a time range and a city. This 		way we can systematically can advice users on a wearing a coat or not,for example, by 		obtaining the weather approximation based on the past temperature, precipitation other
+ 	weather information.
+ \newline
+	
+	\begin{itemize}
+		\item 
+		More research is needed to improve the ability to blend different datasets into an 		integrated system.
+		
+		\item 
+		Data could be assimilated into different models.
+	\end{itemize}
+	
+	\item Data Mining:\newline
+	We are planning to develop an extra feature for our application. This feature will be 		based on users previous selected locations to prioritize the list of suggested places 		that users may like based on our system users overall behavior.
+
+	\begin{itemize}
+		\item 
+		Develop an interface to allow users to easily input the dates or their trip and 	  		city to determine whether they should wear a coat, and or shorts, or not.
+		
+		\item 
+		Apply data mining techniques to develop a list of suggested cities based on the 				users search behaviour and profile information.
+		
+		\item 
+		Create systems for control and feedback, proper data archival and access, and 				sustained data management systems.
+	\end{itemize}
+	
+		The data will be used to predict the weather for future dates by analyzing weather in the past. One way to do this which has been reported in literature is through the use of the k-nearest-neighbor algorithm. The authors used this knowledge discovery technique to predict precipitation levels in the Himalayas. In this paper, the authors compared similar weather situations to predict what the percentage of precipitation would be, given certain conditions. We plan to adapt this approach to predict the range for minimum and maximum temperatures. By comparing historical weather records with current conditions for the predicted record, we hope to be able to determine an accurate range for high and low temperatures. \newline
+	
+\end{itemize}
+
+\section{Table}
+\label{Table}
+The tables attached to this phase report contain only weather information of one of the file from one of the areas in our data set. These images are only to show the response obtained from R when processing our datasets through a transfer function that simulates a an artificial neural network, as well as understanding the data with WEKA analysis techniques. More testing is required to make sure that our data is indeed reasonable and useful. It is important to highlight that each one of the area station contains huge datasets. Therefore, it would be impossible for us to attach their respective files because of the large size of their data that includes the respected area cities weather information. Therefore, I have attached a link to access all datasets and zip file that contains the information of our datasets, in a file named "Reed Me - Dataset Description", including this report.
+\newline
+
+Table 1: R Analysis
+\newline
+\includegraphics[scale=0.3]{tr1.eps}
+\newline\newline\newline\newline\newline 
+
+Table 2: R Analysis
+\newline
+\includegraphics[scale=0.3]{tr2.eps}
+\newline
+\section{References}
+
+[1] NCDC. Babel, Whether Datasets. cdo-web,
+	12(2):291-301, June 1991.
+	http://www.ncdc.noaa.gov/cdo-web/
+\newline
+
+[2] M. Clark. Post congress tristesse. In TeX90 Conference
+	Proceedings, pages 84-89. TeX Users Group, March1991.
+\newline
+
+[3] M. Herlihy. A methodology for implementing highly
+	concurrent data objects. ACM Trans. Program. Lang.
+	Syst., 15(5):745-770, November 1993.
+\newline
+
+\end{document}
+
+
+
+
+
+
+
+
