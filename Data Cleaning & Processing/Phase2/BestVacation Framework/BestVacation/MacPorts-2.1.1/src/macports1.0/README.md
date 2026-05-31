@@ -2,6 +2,10 @@
 
 Path: `Data Cleaning & Processing/Phase2/BestVacation Framework/BestVacation/MacPorts-2.1.1/src/macports1.0`
 
+## Purpose
+
+Indexed project directory from the old Portafolio cleanup.
+
 ## Items
 
 - `get_systemconfiguration_proxies.c` (file)
@@ -13,4 +17,4 @@ Path: `Data Cleaning & Processing/Phase2/BestVacation Framework/BestVacation/Mac
 
 ## Notes
 
-This directory was indexed from the old Portafolio Drive source. Large binaries and archives may remain Drive-only.
+README generated during the old Portafolio cleanup. Use the root README and `OVERLEAF_PREP.md` for source and conversion context.

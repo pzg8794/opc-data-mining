@@ -2,6 +2,10 @@
 
 Path: `Data Cleaning & Processing/Data Cleaning`
 
+## Purpose
+
+Indexed project directory from the old Portafolio cleanup.
+
 ## Items
 
 - `Big Data Medical Diagnosis - Papers/` (folder)
@@ -14,10 +18,9 @@ Path: `Data Cleaning & Processing/Data Cleaning`
 - `MissingData3.pdf` (file)
 - `Outlier.pdf` (file)
 - `Phase3.docx` (file)
-- `report.pdf` (file)
 - `week12.docx` (file)
 - `WEEK4 .docx` (file)
 
 ## Notes
 
-This directory was indexed from the old Portafolio Drive source. Large binaries and archives may remain Drive-only.
+README generated during the old Portafolio cleanup. Use the root README and `OVERLEAF_PREP.md` for source and conversion context.

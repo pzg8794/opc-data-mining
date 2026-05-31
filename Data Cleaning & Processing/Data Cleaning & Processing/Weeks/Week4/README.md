@@ -2,6 +2,10 @@
 
 Path: `Data Cleaning & Processing/Data Cleaning & Processing/Weeks/Week4`
 
+## Purpose
+
+Indexed project directory from the old Portafolio cleanup.
+
 ## Items
 
 - `1-s2.0-S0957417408007306-main_2.pdf` (file)
@@ -43,4 +47,4 @@ Path: `Data Cleaning & Processing/Data Cleaning & Processing/Weeks/Week4`
 
 ## Notes
 
-This directory was indexed from the old Portafolio Drive source. Large binaries and archives may remain Drive-only.
+README generated during the old Portafolio cleanup. Use the root README and `OVERLEAF_PREP.md` for source and conversion context.

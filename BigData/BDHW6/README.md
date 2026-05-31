@@ -2,14 +2,14 @@
 
 Path: `BigData/BDHW6`
 
+## Purpose
+
+Indexed project directory from the old Portafolio cleanup.
+
 ## Items
 
-- `Homework (1).docx` (file)
-- `Homework.docx` (file)
-- `Homework6.docx` (file)
-- `Homework6.pdf` (file)
 - `HW6.pdf` (file)
 
 ## Notes
 
-This directory was indexed from the old Portafolio Drive source. Large binaries and archives may remain Drive-only.
+README generated during the old Portafolio cleanup. Use the root README and `OVERLEAF_PREP.md` for source and conversion context.

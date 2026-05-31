@@ -2,6 +2,10 @@
 
 Path: `Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/WRM_Z-scores/MATLAB_RulesGeneration & Classification`
 
+## Purpose
+
+Indexed project directory from the old Portafolio cleanup.
+
 ## Items
 
 - `classification.png` (file)
@@ -18,9 +22,8 @@ Path: `Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/WRM_Z-scores/MATLA
 - `ZscoreHungarian1-2.png` (file)
 - `ZscoreHungarian1-22.png` (file)
 - `Zscorehungarian1-2[1].png` (file)
-- `ZScoreNN.txt` (file)
 - `zscoresH1classifierErrors.png` (file)
 
 ## Notes
 
-This directory was indexed from the old Portafolio Drive source. Large binaries and archives may remain Drive-only.
+README generated during the old Portafolio cleanup. Use the root README and `OVERLEAF_PREP.md` for source and conversion context.

@@ -2,6 +2,10 @@
 
 Path: `Data Cleaning & Processing/Data Cleaning/Weeks/week9`
 
+## Purpose
+
+Indexed project directory from the old Portafolio cleanup.
+
 ## Items
 
 - `CSCI721W9_MissingData.pdf` (file)
@@ -20,4 +24,4 @@ Path: `Data Cleaning & Processing/Data Cleaning/Weeks/week9`
 
 ## Notes
 
-This directory was indexed from the old Portafolio Drive source. Large binaries and archives may remain Drive-only.
+README generated during the old Portafolio cleanup. Use the root README and `OVERLEAF_PREP.md` for source and conversion context.

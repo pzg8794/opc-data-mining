@@ -2,6 +2,10 @@
 
 Path: `Data Cleaning & Processing/Data Cleaning & Processing`
 
+## Purpose
+
+Indexed project directory from the old Portafolio cleanup.
+
 ## Items
 
 - `Class Documents/` (folder)
@@ -9,13 +13,7 @@ Path: `Data Cleaning & Processing/Data Cleaning & Processing`
 - `GroupProject/` (folder)
 - `Weeks/` (folder)
 - `davetang.org-Using_R_to_obtain_basic_statistics_on_your_dataset.pdf` (file)
-- `Paper1.pdf` (file)
-- `Paper2.pdf` (file)
-- `Paper3.pdf` (file)
-- `report (1).pdf` (file)
-- `report.pdf` (file)
-- `TermPaper1.docx` (file)
 
 ## Notes
 
-This directory was indexed from the old Portafolio Drive source. Large binaries and archives may remain Drive-only.
+README generated during the old Portafolio cleanup. Use the root README and `OVERLEAF_PREP.md` for source and conversion context.

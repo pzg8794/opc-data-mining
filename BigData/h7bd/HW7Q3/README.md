@@ -2,11 +2,13 @@
 
 Path: `BigData/h7bd/HW7Q3`
 
+## Purpose
+
+Indexed project directory from the old Portafolio cleanup.
+
 ## Items
 
 - `Others/` (folder)
-- `Homework7.doc` (file)
-- `Homework7.pdf` (file)
 - `HW7.pdf` (file)
 - `Screen Shot 2013-11-16 at 1.31.15 AM.png` (file)
 - `Screen Shot 2013-11-16 at 1.31.54 AM.png` (file)
@@ -29,4 +31,4 @@ Path: `BigData/h7bd/HW7Q3`
 
 ## Notes
 
-This directory was indexed from the old Portafolio Drive source. Large binaries and archives may remain Drive-only.
+README generated during the old Portafolio cleanup. Use the root README and `OVERLEAF_PREP.md` for source and conversion context.

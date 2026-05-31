@@ -2,6 +2,10 @@
 
 Path: `Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/What Should I Wear - Phase1`
 
+## Purpose
+
+Indexed project directory from the old Portafolio cleanup.
+
 ## Items
 
 - `design.jpg` (file)
@@ -22,13 +26,10 @@ Path: `Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/What S
 - `p365-pinto.pdf` (file)
 - `p415-radinsky.pdf` (file)
 - `p435-kokkodis.pdf` (file)
-- `PaperReading.pptx` (file)
 - `phase1-2.png` (file)
 - `phase1-Model.png` (file)
 - `phase1.png` (file)
 - `README.TXT` (file)
-- `report.pdf` (file)
-- `report.tex` (file)
 - `s.png` (file)
 - `sec.png` (file)
 - `second.png` (file)
@@ -46,4 +47,4 @@ Path: `Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/What S
 
 ## Notes
 
-This directory was indexed from the old Portafolio Drive source. Large binaries and archives may remain Drive-only.
+README generated during the old Portafolio cleanup. Use the root README and `OVERLEAF_PREP.md` for source and conversion context.
