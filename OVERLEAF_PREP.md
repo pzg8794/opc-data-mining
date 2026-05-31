@@ -1,15 +1,661 @@
-# Overleaf Preparation
+<!-- AUTO-GENERATED-PORTFOLIO-README -->
+# Overleaf Prep
 
-Repository: `opc-data-mining`
+Paper, report, and presentation files imported into GitHub are grouped here for later Overleaf conversion.
 
-Drive source: https://drive.google.com/drive/folders/1A2zgFRN7sovwpr9JqKaohbfIA7h5UBCI
+## Papers
 
-## Available Source Buckets
+- `papers/AnnotatedBibliographyHowTo.pdf`
+- `papers/Big Data Medical Diagnosis - Paper2.pdf`
+- `papers/Big Data Medical Diagnosis - Paper3.pdf`
+- `papers/Big Data Medical Diagnosis - PaperII.pdf`
+- `papers/CSCI 721TermPaper.pdf`
+- `papers/Data Cleaning & Processing/Class Documents/CSCI 721TermPaper.pdf`
+- `papers/Data Cleaning & Processing/Class Documents/SampleTermPaper.pdf`
+- `papers/Data Cleaning & Processing/Class Documents/termpaper_template/SampleTermPaper.pdf`
+- `papers/Data Cleaning & Processing/Class Documents/termpaper_template/termpaper_template/GUIDE.PDF`
+- `papers/Data Cleaning & Processing/Class Documents/termpaper_template/termpaper_template/README.TXT`
+- `papers/Data Cleaning & Processing/Class Documents/termpaper_template/termpaper_template/sig-alternate.tex`
+- `papers/Data Cleaning & Processing/Class Documents/termpaper_template/termpaper_template/TERMPAPER_INITIAL.PDF`
+- `papers/Data Cleaning & Processing/Data Cleaning & Processing/Class Documents/CSCI 721TermPaper.pdf`
+- `papers/Data Cleaning & Processing/Data Cleaning & Processing/Class Documents/SampleTermPaper.pdf`
+- `papers/Data Cleaning & Processing/Data Cleaning & Processing/Class Documents/termpaper_template/SampleTermPaper.pdf`
+- `papers/Data Cleaning & Processing/Data Cleaning & Processing/Class Documents/termpaper_template/termpaper_template/GUIDE.PDF`
+- `papers/Data Cleaning & Processing/Data Cleaning & Processing/Class Documents/termpaper_template/termpaper_template/README.TXT`
+- `papers/Data Cleaning & Processing/Data Cleaning & Processing/Class Documents/termpaper_template/termpaper_template/sig-alternate.tex`
+- `papers/Data Cleaning & Processing/Data Cleaning & Processing/Class Documents/termpaper_template/termpaper_template/TERMPAPER_INITIAL.PDF`
+- `papers/Data Cleaning & Processing/Data Cleaning & Processing/Paper1.pdf`
+- `papers/Data Cleaning & Processing/Data Cleaning & Processing/Paper2.pdf`
+- `papers/Data Cleaning & Processing/Data Cleaning & Processing/Paper3.pdf`
+- `papers/Data Cleaning & Processing/Data Cleaning & Processing/TermPaper1.docx`
+- `papers/Data Cleaning & Processing/Data Cleaning & Processing/Weeks/Week1/PaperReading.pdf`
+- `papers/Data Cleaning & Processing/Data Cleaning/Big Data Medical Diagnosis - Papers/Big Data Medical Diagnosis - Paper1/report.pdf`
+- `papers/Data Cleaning & Processing/Data Cleaning/Big Data Medical Diagnosis - Papers/Big Data Medical Diagnosis - Paper1/report.tex`
+- `papers/Data Cleaning & Processing/Data Cleaning/Big Data Medical Diagnosis - Papers/Big Data Medical Diagnosis - Paper1/REPORT_INITIAL.PDF`
+- `papers/Data Cleaning & Processing/Data Cleaning/Big Data Medical Diagnosis - Papers/Big Data Medical Diagnosis - Paper1/sig-alternate.tex`
+- `papers/Data Cleaning & Processing/Data Cleaning/Big Data Medical Diagnosis - Papers/Big Data Medical Diagnosis - Paper2.pdf`
+- `papers/Data Cleaning & Processing/Data Cleaning/Big Data Medical Diagnosis - Papers/Big Data Medical Diagnosis - Paper2/report.pdf`
+- `papers/Data Cleaning & Processing/Data Cleaning/Big Data Medical Diagnosis - Papers/Big Data Medical Diagnosis - Paper2/report.tex`
+- `papers/Data Cleaning & Processing/Data Cleaning/Big Data Medical Diagnosis - Papers/Big Data Medical Diagnosis - Paper2/REPORT_INITIAL.PDF`
+- `papers/Data Cleaning & Processing/Data Cleaning/Big Data Medical Diagnosis - Papers/Big Data Medical Diagnosis - Paper2/sig-alternate.tex`
+- `papers/Data Cleaning & Processing/Data Cleaning/Big Data Medical Diagnosis - Papers/Big Data Medical Diagnosis - Paper2/TermPaper1.pdf`
+- `papers/Data Cleaning & Processing/Data Cleaning/Big Data Medical Diagnosis - Papers/Big Data Medical Diagnosis - Paper2/TermPaper2.pdf`
+- `papers/Data Cleaning & Processing/Data Cleaning/Big Data Medical Diagnosis - Papers/Big Data Medical Diagnosis - Paper2/TermPaper3.pdf`
+- `papers/Data Cleaning & Processing/Data Cleaning/Big Data Medical Diagnosis - Papers/Big Data Medical Diagnosis - Paper3.pdf`
+- `papers/Data Cleaning & Processing/Data Cleaning/Big Data Medical Diagnosis - Papers/Big Data Medical Diagnosis - Paper3/report.pdf`
+- `papers/Data Cleaning & Processing/Data Cleaning/Big Data Medical Diagnosis - Papers/Big Data Medical Diagnosis - Paper3/report.tex`
+- `papers/Data Cleaning & Processing/Data Cleaning/Big Data Medical Diagnosis - Papers/Big Data Medical Diagnosis - Paper3/REPORT_INITIAL.PDF`
+- `papers/Data Cleaning & Processing/Data Cleaning/Big Data Medical Diagnosis - Papers/Big Data Medical Diagnosis - Paper3/sig-alternate.tex`
+- `papers/Data Cleaning & Processing/Data Cleaning/Big Data Medical Diagnosis - Papers/Big Data Medical Diagnosis - Paper3/TermPaper1.pdf`
+- `papers/Data Cleaning & Processing/Data Cleaning/Big Data Medical Diagnosis - Papers/Big Data Medical Diagnosis - Paper3/TermPaper2.pdf`
+- `papers/Data Cleaning & Processing/Data Cleaning/Big Data Medical Diagnosis - Papers/Big Data Medical Diagnosis - Paper3/TermPaper3.pdf`
+- `papers/Data Cleaning & Processing/Data Cleaning/Big Data Medical Diagnosis - Papers/Big Data Medical Diagnosis - PaperII.pdf`
+- `papers/Data Cleaning & Processing/Data Cleaning/Big Data Medical Diagnosis - Papers/termpaper2.docx`
+- `papers/Data Cleaning & Processing/Data Cleaning/Big Data Medical Diagnosis - Papers/termpaper2.odt`
+- `papers/Data Cleaning & Processing/Data Cleaning/Big Data Medical Diagnosis - Papers/TermPhase2.txt`
+- `papers/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/What Should I Wear - Phase1/TERMPAPER_INITIAL.PDF`
+- `papers/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/What Should I Wear - Phase2/TERMPAPER_INITIAL.PDF`
+- `papers/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/What Should I Wear - Phase3/TERMPAPER_INITIAL.PDF`
+- `papers/Data Cleaning & Processing/Paper1.pdf`
+- `papers/Data Cleaning & Processing/Paper2.pdf`
+- `papers/Data Cleaning & Processing/Paper3.pdf`
+- `papers/Data Cleaning & Processing/TermPaper1.docx`
+- `papers/Data Cleaning & Processing/Weeks/Week1/PaperReading.pdf`
+- `papers/GUIDE.PDF`
+- `papers/Paper1.pdf`
+- `papers/Paper2.pdf`
+- `papers/Paper3.pdf`
+- `papers/PaperReading.pdf`
+- `papers/README.TXT`
+- `papers/report--from-Big-Data-Medical-Diagnosis---Papers-Big-Data-Medical-Diagnos-2.pdf`
+- `papers/report--from-Big-Data-Medical-Diagnosis---Papers-Big-Data-Medical-Diagnos-2.tex`
+- `papers/report--from-Big-Data-Medical-Diagnosis---Papers-Big-Data-Medical-Diagnos.pdf`
+- `papers/report--from-Big-Data-Medical-Diagnosis---Papers-Big-Data-Medical-Diagnos.tex`
+- `papers/report.pdf`
+- `papers/report.tex`
+- `papers/REPORT_INITIAL.PDF`
+- `papers/SampleTermPaper.pdf`
+- `papers/sig-alternate--from-Big-Data-Medical-Diagnosis---Papers-Big-Data-Medical-Diagnos.cls`
+- `papers/sig-alternate--from-Big-Data-Medical-Diagnosis---Papers-Big-Data-Medical-Diagnos.tex`
+- `papers/sig-alternate.cls`
+- `papers/sig-alternate.tex`
+- `papers/termpaper.bib`
+- `papers/TermPaper1.docx`
+- `papers/TermPaper1.pdf`
+- `papers/termpaper2.docx`
+- `papers/termpaper2.odt`
+- `papers/TermPaper2.pdf`
+- `papers/TermPaper3.pdf`
+- `papers/TERMPAPER_INITIAL--from-What-Should-I-Wear-Phases-What-Should-I-Wear---Phase1.PDF`
+- `papers/TERMPAPER_INITIAL--from-What-Should-I-Wear-Phases-What-Should-I-Wear---Phase2.PDF`
+- `papers/TERMPAPER_INITIAL--from-What-Should-I-Wear-Phases-What-Should-I-Wear---Phase3.PDF`
+- `papers/TERMPAPER_INITIAL.PDF`
+- `papers/TermPhase2.txt`
 
-- `papers/`: 54 file(s)
-- `reports/`: 365 file(s)
-- `presentations/`: 16 file(s)
+## Reports
 
-## Notes
+- `reports/1-s2.0-S0957417408007306-main_2.pdf`
+- `reports/10Problems-06.pdf`
+- `reports/1866.full.pdf`
+- `reports/216.full.pdf`
+- `reports/304-1434-1-PB.pdf`
+- `reports/310.full.pdf`
+- `reports/43.pdf`
+- `reports/59-70.pdf`
+- `reports/612259.pdf`
+- `reports/Analysis--from-Hw3-W_Normalization.odt`
+- `reports/Analysis.doc`
+- `reports/Analysis.docx`
+- `reports/Analysis.odt`
+- `reports/australian-crabs.csv`
+- `reports/Bands.csv`
+- `reports/bands_attribute_names.txt`
+- `reports/bayes-example.pdf`
+- `reports/BigData/BDHW6/Homework (1).docx`
+- `reports/BigData/BDHW6/Homework.docx`
+- `reports/BigData/BDHW6/Homework6.docx`
+- `reports/BigData/BDHW6/Homework6.pdf`
+- `reports/BigData/BDHW6/HW6.pdf`
+- `reports/BigData/h7bd/Homework7.doc`
+- `reports/BigData/h7bd/Homework7.pdf`
+- `reports/BigData/h7bd/HW7.pdf`
+- `reports/BigData/h7bd/HW7Q3/Homework7.doc`
+- `reports/BigData/h7bd/HW7Q3/Homework7.pdf`
+- `reports/BigData/h7bd/HW7Q3/HW7.pdf`
+- `reports/BigData/h7bd/solution2.pdf`
+- `reports/BigData/Homework9.doc`
+- `reports/BigData/hw5/Homework5.docx`
+- `reports/BigData/hw8bd/homework8 (1).doc`
+- `reports/BigData/hw8bd/homework8.doc`
+- `reports/BigData/hw8bd/homework8.docx`
+- `reports/BigData/hw8bd/homework8.pdf`
+- `reports/BigData/hw8bd/HW8.pdf`
+- `reports/BigData/hw8bd/Weka_clustering.pdf`
+- `reports/BigData/hw9.doc`
+- `reports/BigData/HW9.pdf`
+- `reports/BigData/Q2Hw8/RQ2Hw8/1st test/output.txt`
+- `reports/BigData/Q2Hw8/RQ2Hw8/1st test/Rouput.txt`
+- `reports/C25.pdf`
+- `reports/condition.txt`
+- `reports/CRISP-DM.pdf`
+- `reports/CSCI721GroupProject.pdf`
+- `reports/CSCI721Syllabus.pdf`
+- `reports/CSCI721W1_Overview.pdf`
+- `reports/CSCI721W2_DataTypes.pdf`
+- `reports/CSCI721W4_Extra_Graphing data.pdf`
+- `reports/CSCI721W4DataAnalysis.pdf`
+- `reports/CSCI721W5Non_numerics.pdf`
+- `reports/CSCI721W5Non_numerics1.pdf`
+- `reports/CSCI721W9_MissingData.pdf`
+- `reports/Data Cleaning & Processing/Class Documents/CSCI721GroupProject.pdf`
+- `reports/Data Cleaning & Processing/Class Documents/CSCI721Syllabus.pdf`
+- `reports/Data Cleaning & Processing/Class Documents/DataCleaning&PreparationBook.pdf`
+- `reports/Data Cleaning & Processing/Class Documents/GroupProjectInst.pdf`
+- `reports/Data Cleaning & Processing/Class Documents/Syllabus.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/Class Documents/CSCI721GroupProject.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/Class Documents/CSCI721Syllabus.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/Class Documents/DataCleaning&PreparationBook.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/Class Documents/GroupProjectInst.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/Class Documents/Syllabus.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/Data Files/australian-crabs.csv`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/Data Files/Bands.csv`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/Data Files/bands_attribute_names.txt`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/Data Files/flea.csv`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/Data Files/olive.csv`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/Data Files/tips.csv`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/davetang.org-Using_R_to_obtain_basic_statistics_on_your_dataset.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/GroupProject/Phases/Phase01.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/report (1).pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/report.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/Weeks/Week1/CSCI721W1_Overview.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/Weeks/Week1/IntroductionToBigData.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/Weeks/Week1/week1 reading/10Problems-06.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/Weeks/Week1/week1 reading/43.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/Weeks/Week1/week1 reading/59-70.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/Weeks/Week1/week1 reading/download.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/Weeks/Week1/week1 Work/DC&P.docx`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/Weeks/Week1/week1 Work/What problems do you think can arise by combining data from distributed and heterogeneous sources.docx`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/Weeks/Week2/CSCI721W2_DataTypes.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/Weeks/Week2/HW1.csv`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/Weeks/Week2/hw1read1.docx`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/Weeks/Week2/hw1Sol.docx`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/Weeks/Week2/hw1Sol.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/Weeks/Week2/Review.docx`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/Weeks/Week3/612259.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/Weeks/Week3/dmi5420.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/Weeks/Week3/week3.docx`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/Weeks/Week4/1-s2.0-S0957417408007306-main_2.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/Weeks/Week4/1866.full.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/Weeks/Week4/216.full.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/Weeks/Week4/304-1434-1-PB.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/Weeks/Week4/310.full.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/Weeks/Week4/bayes-example.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/Weeks/Week4/condition.txt`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/Weeks/Week4/CSCI721W4_Extra_Graphing data.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/Weeks/Week4/CSCI721W4DataAnalysis.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/Weeks/Week4/DataAnalysisExercise.csv`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/Weeks/Week4/Diabetes.csv`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/Weeks/Week4/hw2.docx`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/Weeks/Week4/hw2.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/Weeks/Week4/hw2q5.csv`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/Weeks/Week4/hw2q9.csv`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/Weeks/Week4/hw2q9.csv.xlsx`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/Weeks/Week4/hw2q91.csv`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/Weeks/Week4/HW9Sol.doc`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/Weeks/Week4/Icann-Iconip2003-2.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/Weeks/Week4/level2_rename_mean_5.csv`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/Weeks/Week4/Project1-13.docx`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/Weeks/Week4/WEEK4 .docx`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/Weeks/week5/CSCI721W5Non_numerics.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning & Processing/Weeks/week5/CSCI721W5Non_numerics1.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning/DataCleaningPreparationBook.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/Analysis.doc`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/Analysis.odt`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/data_dictionary.txt`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/Hungarian.csv`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/matrix2.txt`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/notes.txt`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/W_decimapoint/WEKA - Classification & Rules Generation/Hungarian_j48_results_decimal_10.txt`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/W_decimapoint/WEKA - Classification & Rules Generation/Hungarian_j48_results_unnormalized.txt`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/W_Normalization/Analysis.docx`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/W_Normalization/Analysis.odt`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/W_Normalization/data_dictionary.txt`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/W_Normalization/hungarian.data.processed.csv`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/W_Normalization/notes.txt`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/W_Normalization/Results/Hungarian_j48_results_decimal_10.txt`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/W_Normalization/Results/Hungarian_j48_results_decimal_e.txt`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/W_Normalization/Results/Hungarian_j48_results_minmax.txt`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/W_Normalization/Results/Hungarian_j48_results_unnormalized.txt`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/WR_minmax/Hungarian_normalized_minmax.csv`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/WR_minmax/R_NNS/max_minmodel.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/WR_minmax/R_NNS/maxmin-2.txt`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/WR_minmax/R_NNS/maxmin1-1.txt`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/WR_minmax/R_NNS/maxminNN.txt`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/WR_minmax/R_NNS/MInMaxRplot.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/WR_minmax/R_NNS/MMNNRplot.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/WR_minmax/R_NNS/ModelNumRplot.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/WR_minmax/WEKA_Classification & Rules Generation/Hungarian_j48_results_decimal_10.txt`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/WR_minmax/WEKA_Classification & Rules Generation/Hungarian_j48_results_decimal_e.txt`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/WR_minmax/WEKA_Classification & Rules Generation/Hungarian_j48_results_minmax.txt`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/WR_minmax/WEKA_Classification & Rules Generation/Hungarian_j48_results_unnormalized.txt`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/WRM_Z-scores/MATLAB_RulesGeneration & Classification/classification.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/WRM_Z-scores/MATLAB_RulesGeneration & Classification/classifierError.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/WRM_Z-scores/MATLAB_RulesGeneration & Classification/hungarian1.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/WRM_Z-scores/MATLAB_RulesGeneration & Classification/hungarian1ntn.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/WRM_Z-scores/MATLAB_RulesGeneration & Classification/hungarian1tree.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/WRM_Z-scores/MATLAB_RulesGeneration & Classification/TreeAS.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/WRM_Z-scores/MATLAB_RulesGeneration & Classification/treeNAS.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/WRM_Z-scores/MATLAB_RulesGeneration & Classification/wekaTree.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/WRM_Z-scores/MATLAB_RulesGeneration & Classification/Zclassification.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/WRM_Z-scores/MATLAB_RulesGeneration & Classification/ZClassifiersErrors.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/WRM_Z-scores/MATLAB_RulesGeneration & Classification/ZscoreHungarian1-1.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/WRM_Z-scores/MATLAB_RulesGeneration & Classification/ZscoreHungarian1-2.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/WRM_Z-scores/MATLAB_RulesGeneration & Classification/ZscoreHungarian1-22.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/WRM_Z-scores/MATLAB_RulesGeneration & Classification/Zscorehungarian1-2[1].png`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/WRM_Z-scores/MATLAB_RulesGeneration & Classification/ZScoreNN.txt`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/WRM_Z-scores/MATLAB_RulesGeneration & Classification/zscoresH1classifierErrors.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/WRM_Z-scores/R_NNS/HungarianDataset.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/WRM_Z-scores/R_NNS/Output1.txt`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/WRM_Z-scores/R_NNS/Output2.txt`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/WRM_Z-scores/R_NNS/Output3.txt`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/WRM_Z-scores/R_NNS/Rplot01.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/WRM_Z-scores/R_NNS/ZNNRplot.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/WRM_Z-scores/R_NNS/ZOutput1.txt`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/WRM_Z-scores/R_NNS/ZOutput2.txt`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/WRM_Z-scores/R_NNS/ZOutput3.txt`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/WRM_Z-scores/R_NNS/ZRplot02.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/WRM_Z-scores/R_NNS/ZscoreH1-1.txt`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/WRM_Z-scores/R_NNS/zscoreH1-2.txt`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/WRM_Z-scores/R_NNS/ZscoreH1-3.txt`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/WRM_Z-scores/R_NNS/ZscoreH1Rplot.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/WRM_Z-scores/R_NNS/ZscoreHungDataSet.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/WRM_Z-scores/R_NNS/ZScoreNumRplot.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/WRM_Z-scores/WEKA_KNN & Clustering/cluster.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/WRM_Z-scores/WEKA_KNN & Clustering/hungariancluster.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/WRM_Z-scores/WEKA_KNN & Clustering/Zclustering.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/WRM_Z-scores/WEKA_KNN & Clustering/Zscorecluster1-2.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/WRM_Z-scores/zscoresMH1.csv`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/ZAnalysis1.odt`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw4/extra work.docx`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw4/hw4.docx`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw4/hw4.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw4/Matlab/Diabetes.csv`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw4/Matlab/first.jpg`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw4/Matlab/hw4-1.m`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw4/Matlab/hw4.m`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw4/Matlab/Second.jpg`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw4/Matlab/smothedDataset.jpg`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw4/WEKA/Diabetes.txt`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw4/WEKA/Manipulated Data/Screenshot from 2014-04-14 21_58_23.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw4/WEKA/Manipulated Data/Screenshot from 2014-04-14 22_04_50.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw4/WEKA/Screenshot from 2014-04-14 21_31_00.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw4/WEKA/Screenshot from 2014-04-14 21_32_58.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw4/WEKA/Screenshot from 2014-04-14 21_46_53.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw4/WEKA/Screenshot from 2014-04-14 21_55_38.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/Midterm/C25.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning/Midterm/essay copy.odt`
+- `reports/Data Cleaning & Processing/Data Cleaning/Midterm/essay.odt`
+- `reports/Data Cleaning & Processing/Data Cleaning/Midterm/midterm.odt`
+- `reports/Data Cleaning & Processing/Data Cleaning/Midterm/MidtermEssay.txt`
+- `reports/Data Cleaning & Processing/Data Cleaning/Midterm/quiz.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning/MissingData2.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning/MissingData3.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning/Outlier.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning/Phase3.docx`
+- `reports/Data Cleaning & Processing/Data Cleaning/report.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning/week12.docx`
+- `reports/Data Cleaning & Processing/Data Cleaning/week14.odt`
+- `reports/Data Cleaning & Processing/Data Cleaning/WEEK4 .docx`
+- `reports/Data Cleaning & Processing/Data Cleaning/Week6nd7 Discussion.odt`
+- `reports/Data Cleaning & Processing/Data Cleaning/Weeks/Week10/WEEK10BLG2.odt`
+- `reports/Data Cleaning & Processing/Data Cleaning/Weeks/week9/CSCI721W9_MissingData.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning/Weeks/week9/Missing Values Weka Methods.docx`
+- `reports/Data Cleaning & Processing/Data Cleaning/Weeks/week9/Missing Values Weka Methods.odt`
+- `reports/Data Cleaning & Processing/Data Cleaning/Weeks/week9/MissingData.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning/Weeks/week9/Untitled 1.odt`
+- `reports/Data Cleaning & Processing/Data Cleaning/Weeks/week9/Untitled 2.odt`
+- `reports/Data Cleaning & Processing/Data Cleaning/Weeks/week9/Untitled 3.odt`
+- `reports/Data Cleaning & Processing/Data Cleaning/Weeks/week9/weather.csv`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/phase1.odt`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Phase3.docx`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/Engine nd tables/cities.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/Engine nd tables/cityD.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/Engine nd tables/cityS.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/Engine nd tables/cityT.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/Engine nd tables/data.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/Engine nd tables/dataT.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/Engine nd tables/platform.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/Engine nd tables/platform2.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/Engine nd tables/platform3.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/Engine nd tables/search.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/Engine nd tables/searchT.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/Engine nd tables/userP.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/Engineline Implementation/imp1.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/Engineline Implementation/imp2.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/IDEAN.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/Java/JCL1.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/Java/JCL2.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/Matlab/MCBM-15-1.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/Matlab/MCBM-15b-1.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/Matlab/MCBM-All-All.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/Matlab/MCBM-AllB-All.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/Matlab/MCL1.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/Matlab/MCL2.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/Matlab/MCNM-15A-1.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/Matlab/MCNM-15B-1.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/Matlab/MCNM-AllA-All.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/Matlab/MCNM_AllB_All.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/Matlab/MCZM-15A-1.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/Matlab/MCZM-15B-1.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/Matlab/MCZM-AllA-All.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/Matlab/MCZM-AllB-All.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/Matlab/Untitled Folder/MZCL1.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/Matlab/Untitled Folder/MZCL2.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/Matlab/Untitled Folder/MZCL3.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/Matlab/Untitled Folder/MZCL4.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/Matlab/Untitled Folder/MZCL5-1.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/Matlab/Untitled Folder/MZCL5-2.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/Matlab/Untitled Folder/MZCL5-3.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/Matlab/Untitled Folder/MZCL5-4.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/Matlab/Untitled Folder/MZCL5-5.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/Matlab/Untitled Folder/MZCL6.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/Matlab/Untitled Folder/MZCL7.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/Matlab/Untitled Folder/MZCL8.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/Matlab/Untitled Folder/table.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/R/RCL1.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/R/RCL15.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/R/Rplot1-1.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/R/Rplot1-12.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/R/Rplot1.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/R/Rplot10.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/R/Rplot11.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/R/Rplot12.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/R/Rplot13.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/R/Rplot14.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/R/Rplot15.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/R/Rplot2.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/R/Rplot3.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/R/Rplot4.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/R/Rplot5.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/R/Rplot6.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/R/Rplot7.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/R/Rplot8.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Project Pictures/R/Rplot9.png`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/ProjectTempStuff.odt`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/Untitled 1.odt`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/What Should I Wear - Phase1/GUIDE.PDF`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/What Should I Wear - Phase1/New Microsoft Word Document.docx`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/What Should I Wear - Phase1/p365-pinto.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/What Should I Wear - Phase1/p415-radinsky.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/What Should I Wear - Phase1/p435-kokkodis.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/What Should I Wear - Phase1/README.TXT`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/What Should I Wear - Phase1/report.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/What Should I Wear - Phase1/report.tex`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/What Should I Wear - Phase1/sig-alternate.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/What Should I Wear - Phase1/sig-alternate.tex`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/What Should I Wear - Phase1/~$w Microsoft Word Document.docx`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/What Should I Wear - Phase2/GUIDE.PDF`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/What Should I Wear - Phase2/New Microsoft Word Document.docx`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/What Should I Wear - Phase2/p365-pinto.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/What Should I Wear - Phase2/p415-radinsky.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/What Should I Wear - Phase2/p435-kokkodis.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/What Should I Wear - Phase2/README.TXT`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/What Should I Wear - Phase2/report.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/What Should I Wear - Phase2/report.tex`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/What Should I Wear - Phase2/sig-alternate.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/What Should I Wear - Phase2/sig-alternate.tex`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/What Should I Wear - Phase2/~$w Microsoft Word Document.docx`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/What Should I Wear - Phase3/GUIDE.PDF`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/What Should I Wear - Phase3/New Microsoft Word Document.docx`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/What Should I Wear - Phase3/p365-pinto.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/What Should I Wear - Phase3/p415-radinsky.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/What Should I Wear - Phase3/p435-kokkodis.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/What Should I Wear - Phase3/README.TXT`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/What Should I Wear - Phase3/report.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/What Should I Wear - Phase3/report.tex`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/What Should I Wear - Phase3/sig-alternate.pdf`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/What Should I Wear - Phase3/sig-alternate.tex`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/What Should I Wear - Phase3/~$w Microsoft Word Document.docx`
+- `reports/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/What Should I Wear.pdf`
+- `reports/Data Cleaning & Processing/Data Files/australian-crabs.csv`
+- `reports/Data Cleaning & Processing/Data Files/Bands.csv`
+- `reports/Data Cleaning & Processing/Data Files/bands_attribute_names.txt`
+- `reports/Data Cleaning & Processing/Data Files/flea.csv`
+- `reports/Data Cleaning & Processing/Data Files/olive.csv`
+- `reports/Data Cleaning & Processing/Data Files/tips.csv`
+- `reports/Data Cleaning & Processing/davetang.org-Using_R_to_obtain_basic_statistics_on_your_dataset.pdf`
+- `reports/Data Cleaning & Processing/GroupProject/Phases/Phase01.pdf`
+- `reports/Data Cleaning & Processing/Phase2/BestVacation Framework/BestVacation/MacPorts-2.1.1/config/README.TXT`
+- `reports/Data Cleaning & Processing/Phase2/BestVacation Framework/BestVacation/MacPorts-2.1.1/portmgr/dmg/ReadMe.rtf`
+- `reports/Data Cleaning & Processing/Phase2/Phase2.pdf`
+- `reports/Data Cleaning & Processing/phase3/phase3/README.txt`
+- `reports/Data Cleaning & Processing/report (1).pdf`
+- `reports/Data Cleaning & Processing/report.pdf`
+- `reports/Data Cleaning & Processing/Weeks/Week1/CSCI721W1_Overview.pdf`
+- `reports/Data Cleaning & Processing/Weeks/Week1/IntroductionToBigData.pdf`
+- `reports/Data Cleaning & Processing/Weeks/Week1/week1 reading/10Problems-06.pdf`
+- `reports/Data Cleaning & Processing/Weeks/Week1/week1 reading/43.pdf`
+- `reports/Data Cleaning & Processing/Weeks/Week1/week1 reading/59-70.pdf`
+- `reports/Data Cleaning & Processing/Weeks/Week1/week1 reading/download.pdf`
+- `reports/Data Cleaning & Processing/Weeks/Week1/week1 Work/DC&P.docx`
+- `reports/Data Cleaning & Processing/Weeks/Week1/week1 Work/What problems do you think can arise by combining data from distributed and heterogeneous sources.docx`
+- `reports/Data Cleaning & Processing/Weeks/Week2/CSCI721W2_DataTypes.pdf`
+- `reports/Data Cleaning & Processing/Weeks/Week2/HW1.csv`
+- `reports/Data Cleaning & Processing/Weeks/Week2/hw1read1.docx`
+- `reports/Data Cleaning & Processing/Weeks/Week2/hw1Sol.docx`
+- `reports/Data Cleaning & Processing/Weeks/Week2/hw1Sol.pdf`
+- `reports/Data Cleaning & Processing/Weeks/Week2/Review.docx`
+- `reports/Data Cleaning & Processing/Weeks/Week3/612259.pdf`
+- `reports/Data Cleaning & Processing/Weeks/Week3/dmi5420.pdf`
+- `reports/Data Cleaning & Processing/Weeks/Week3/week3.docx`
+- `reports/Data Cleaning & Processing/Weeks/Week4/1-s2.0-S0957417408007306-main_2.pdf`
+- `reports/Data Cleaning & Processing/Weeks/Week4/1866.full.pdf`
+- `reports/Data Cleaning & Processing/Weeks/Week4/216.full.pdf`
+- `reports/Data Cleaning & Processing/Weeks/Week4/304-1434-1-PB.pdf`
+- `reports/Data Cleaning & Processing/Weeks/Week4/310.full.pdf`
+- `reports/Data Cleaning & Processing/Weeks/Week4/bayes-example.pdf`
+- `reports/Data Cleaning & Processing/Weeks/Week4/condition.txt`
+- `reports/Data Cleaning & Processing/Weeks/Week4/CSCI721W4_Extra_Graphing data.pdf`
+- `reports/Data Cleaning & Processing/Weeks/Week4/CSCI721W4DataAnalysis.pdf`
+- `reports/Data Cleaning & Processing/Weeks/Week4/DataAnalysisExercise.csv`
+- `reports/Data Cleaning & Processing/Weeks/Week4/Diabetes.csv`
+- `reports/Data Cleaning & Processing/Weeks/Week4/Diabetes1.xlsx`
+- `reports/Data Cleaning & Processing/Weeks/Week4/hw2.docx`
+- `reports/Data Cleaning & Processing/Weeks/Week4/hw2.pdf`
+- `reports/Data Cleaning & Processing/Weeks/Week4/hw2q5.csv`
+- `reports/Data Cleaning & Processing/Weeks/Week4/hw2q9.csv`
+- `reports/Data Cleaning & Processing/Weeks/Week4/hw2q91.csv`
+- `reports/Data Cleaning & Processing/Weeks/Week4/HW9Sol.doc`
+- `reports/Data Cleaning & Processing/Weeks/Week4/Icann-Iconip2003-2.pdf`
+- `reports/Data Cleaning & Processing/Weeks/Week4/level2_rename_mean_5.csv`
+- `reports/Data Cleaning & Processing/Weeks/Week4/Project1-13.docx`
+- `reports/Data Cleaning & Processing/Weeks/Week4/WEEK4 .docx`
+- `reports/Data Cleaning & Processing/Weeks/week5/CSCI721W5Non_numerics.pdf`
+- `reports/Data Cleaning & Processing/Weeks/week5/CSCI721W5Non_numerics1.pdf`
+- `reports/data_dictionary.txt`
+- `reports/DataAnalysisExercise.csv`
+- `reports/DataCleaning&PreparationBook.pdf`
+- `reports/DataCleaningPreparationBook.pdf`
+- `reports/DataDataCleaning-20124.pdf`
+- `reports/DataMining-Intro.pdf`
+- `reports/DataSets.pdf`
+- `reports/davetang.org-Using_R_to_obtain_basic_statistics_on_your_dataset.pdf`
+- `reports/DC&P.docx`
+- `reports/DecisionTrees-20124.pdf`
+- `reports/Diabetes--from-Hw4-Matlab.csv`
+- `reports/Diabetes.csv`
+- `reports/Diabetes.txt`
+- `reports/Diabetes1.xlsx`
+- `reports/DirtyDataAssignment.pdf`
+- `reports/dm.pdf.pdf.pdf`
+- `reports/dmi5420.pdf`
+- `reports/DonationData.csv`
+- `reports/download.pdf`
+- `reports/essay copy.odt`
+- `reports/essay.odt`
+- `reports/extra work.docx`
+- `reports/First Week/CRISP-DM.pdf`
+- `reports/First Week/DataDataCleaning-20124.pdf`
+- `reports/First Week/DataMining-Intro.pdf`
+- `reports/flea.csv`
+- `reports/GroupProjectInst.pdf`
+- `reports/GUIDE.PDF`
+- `reports/Homework (1).docx`
+- `reports/Homework.docx`
+- `reports/Homework5.docx`
+- `reports/Homework6.docx`
+- `reports/Homework6.pdf`
+- `reports/Homework7--from-h7bd-HW7Q3.doc`
+- `reports/Homework7--from-h7bd-HW7Q3.pdf`
+- `reports/Homework7.doc`
+- `reports/Homework7.pdf`
+- `reports/homework8 (1).doc`
+- `reports/homework8.doc`
+- `reports/homework8.docx`
+- `reports/homework8.pdf`
+- `reports/Homework9.doc`
+- `reports/Hungarian.csv`
+- `reports/hungarian.data.processed.csv`
+- `reports/Hungarian_j48_results_decimal_10--from-W_Normalization-Results.txt`
+- `reports/Hungarian_j48_results_decimal_10--from-WR_minmax-WEKA_Classification-Rules-Generation.txt`
+- `reports/Hungarian_j48_results_decimal_10.txt`
+- `reports/Hungarian_j48_results_decimal_e.txt`
+- `reports/Hungarian_j48_results_minmax.txt`
+- `reports/Hungarian_j48_results_unnormalized--from-W_Normalization-Results.txt`
+- `reports/Hungarian_j48_results_unnormalized--from-WR_minmax-WEKA_Classification-Rules-Generation.txt`
+- `reports/Hungarian_j48_results_unnormalized.txt`
+- `reports/Hungarian_normalized_minmax.csv`
+- `reports/HW1.csv`
+- `reports/HW1/DirtyDataAssignment.pdf`
+- `reports/HW1/DonationData.csv`
+- `reports/HW1/TermProject.pdf`
+- `reports/hw1read1.docx`
+- `reports/hw1Sol.docx`
+- `reports/hw1Sol.pdf`
+- `reports/hw2--from-Weeks-Week4.pdf`
+- `reports/hw2.docx`
+- `reports/HW2.pdf`
+- `reports/HW2/HW2.pdf`
+- `reports/HW2/TeamProjectExample.pdf`
+- `reports/hw2q5.csv`
+- `reports/hw2q9.csv`
+- `reports/hw2q9.csv.xlsx`
+- `reports/hw2q91.csv`
+- `reports/hw4.docx`
+- `reports/hw4.pdf`
+- `reports/HW6.pdf`
+- `reports/HW7.pdf`
+- `reports/HW8.pdf`
+- `reports/hw9.doc`
+- `reports/HW9.pdf`
+- `reports/HW9Sol.doc`
+- `reports/Icann-Iconip2003-2.pdf`
+- `reports/IntroClassification-1R.pdf`
+- `reports/IntroductionToBigData.pdf`
+- `reports/level2_rename_mean_5.csv`
+- `reports/matrix2.txt`
+- `reports/maxmin-2.txt`
+- `reports/maxmin1-1.txt`
+- `reports/maxminNN.txt`
+- `reports/midterm.odt`
+- `reports/MidtermEssay.txt`
+- `reports/Missing Values Weka Methods.docx`
+- `reports/Missing Values Weka Methods.odt`
+- `reports/MissingData.pdf`
+- `reports/MissingData2.pdf`
+- `reports/MissingData3.pdf`
+- `reports/MSProjectReport.pdf`
+- `reports/NaiveBayes-20124.pdf`
+- `reports/New Microsoft Word Document.docx`
+- `reports/notes.txt`
+- `reports/olive.csv`
+- `reports/Outlier.pdf`
+- `reports/output.txt`
+- `reports/Output1.txt`
+- `reports/Output2.txt`
+- `reports/Output3.txt`
+- `reports/p365-pinto.pdf`
+- `reports/p415-radinsky.pdf`
+- `reports/p435-kokkodis.pdf`
+- `reports/Phase01.pdf`
+- `reports/phase1.odt`
+- `reports/Phase2.pdf`
+- `reports/Phase3--from-Data-Cleaning-What-Should-I-Wear-Phases.docx`
+- `reports/Phase3.docx`
+- `reports/Project1-13.docx`
+- `reports/ProjectTempStuff.odt`
+- `reports/quiz.pdf`
+- `reports/README--from-MacPorts-2.1.1-config.TXT`
+- `reports/README--from-phase3-phase3.txt`
+- `reports/ReadMe.rtf`
+- `reports/README.TXT`
+- `reports/report (1).pdf`
+- `reports/report--from-Data-Cleaning-Processing-Data-Cleaning.pdf`
+- `reports/report--from-What-Should-I-Wear-Phases-What-Should-I-Wear---Phase1.pdf`
+- `reports/report--from-What-Should-I-Wear-Phases-What-Should-I-Wear---Phase1.tex`
+- `reports/report--from-What-Should-I-Wear-Phases-What-Should-I-Wear---Phase2.pdf`
+- `reports/report--from-What-Should-I-Wear-Phases-What-Should-I-Wear---Phase2.tex`
+- `reports/report--from-What-Should-I-Wear-Phases-What-Should-I-Wear---Phase3.pdf`
+- `reports/report.bib`
+- `reports/report.pdf`
+- `reports/report.tex`
+- `reports/Review.docx`
+- `reports/Rouput.txt`
+- `reports/sig-alternate.cls`
+- `reports/sig-alternate.pdf`
+- `reports/sig-alternate.tex`
+- `reports/solution2.pdf`
+- `reports/Syllabus.pdf`
+- `reports/TeamProjectExample.pdf`
+- `reports/TermProject.pdf`
+- `reports/tips.csv`
+- `reports/Untitled 1--from-Weeks-week9.odt`
+- `reports/Untitled 1.odt`
+- `reports/Untitled 2.odt`
+- `reports/Untitled 3.odt`
+- `reports/weather.csv`
+- `reports/WEEK10BLG2.odt`
+- `reports/week12.docx`
+- `reports/week14.odt`
+- `reports/week3.docx`
+- `reports/WEEK4 .docx`
+- `reports/Week6nd7 Discussion.odt`
+- `reports/Weka_clustering.pdf`
+- `reports/What problems do you think can arise by combining data from distributed and heterogeneous sources.docx`
+- `reports/What Should I Wear.pdf`
+- `reports/ZAnalysis1.odt`
+- `reports/ZOutput1.txt`
+- `reports/ZOutput2.txt`
+- `reports/ZOutput3.txt`
+- `reports/ZscoreH1-1.txt`
+- `reports/zscoreH1-2.txt`
+- `reports/ZscoreH1-3.txt`
+- `reports/ZScoreNN.txt`
+- `reports/zscoresMH1.csv`
 
-Only folders with actual GitHub-stored files are listed here. Heavy/video/data-only material stays in Drive and is listed in `DRIVE_ONLY.md` when detected.
+## Presentations
+
+- `presentations/27F157AL5Enhanced ER-diagram.ppt`
+- `presentations/BigData/27F157AL5Enhanced ER-diagram.ppt`
+- `presentations/BigData/ERD_Examples.ppt`
+- `presentations/BigData/hw8bd/clustering_mod.ppt`
+- `presentations/BigData/hw8bd/k-mean-clustering.ppt`
+- `presentations/bigdata_finalppt.ppt`
+- `presentations/clustering_mod.ppt`
+- `presentations/CRISP-Slides.pdf`
+- `presentations/Data Cleaning & Processing/Class Documents/termpaper_template/termpaper_template/PaperReading.pptx`
+- `presentations/Data Cleaning & Processing/Data Cleaning & Processing/Class Documents/termpaper_template/termpaper_template/PaperReading.pptx`
+- `presentations/Data Cleaning & Processing/Data Cleaning & Processing/Weeks/Week3/lecture1.ppt`
+- `presentations/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/What Should I Wear - Phase1/PaperReading.pptx`
+- `presentations/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/What Should I Wear - Phase2/PaperReading.pptx`
+- `presentations/Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/What Should I Wear - Phase3/PaperReading.pptx`
+- `presentations/Data Cleaning & Processing/phase3/phase3/bigdata_finalppt.ppt`
+- `presentations/Data Cleaning & Processing/Weeks/Week3/lecture1.ppt`
+- `presentations/ERD_Examples.ppt`
+- `presentations/First Week/CRISP-Slides.pdf`
+- `presentations/k-mean-clustering.ppt`
+- `presentations/lecture1.ppt`
+- `presentations/PaperReading--from-What-Should-I-Wear-Phases-What-Should-I-Wear---Phase1.pptx`
+- `presentations/PaperReading--from-What-Should-I-Wear-Phases-What-Should-I-Wear---Phase2.pptx`
+- `presentations/PaperReading--from-What-Should-I-Wear-Phases-What-Should-I-Wear---Phase3.pptx`
+- `presentations/PaperReading.pptx`

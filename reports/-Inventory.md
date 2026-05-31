@@ -1,0 +1,193 @@
+<!-- AUTO-GENERATED-PORTFOLIO-README -->
+# reports
+
+This index keeps the directory navigable and points each item to its current role.
+
+## Contents
+
+- `BigData/` - Directory containing related files for this portfolio item.
+- `Data Cleaning & Processing/` - Directory containing related files for this portfolio item.
+- `First Week/` - Directory containing related files for this portfolio item.
+- `HW1/` - Directory containing related files for this portfolio item.
+- `HW2/` - Directory containing related files for this portfolio item.
+- `1-s2.0-S0957417408007306-main_2.pdf` - File, 342.0 KB.
+- `10Problems-06.pdf` - File, 116.8 KB.
+- `1866.full.pdf` - File, 95.4 KB.
+- `216.full.pdf` - File, 1.4 MB.
+- `304-1434-1-PB.pdf` - File, 370.5 KB.
+- `310.full.pdf` - File, 595.4 KB.
+- `43.pdf` - File, 324.1 KB.
+- `59-70.pdf` - File, 522.4 KB.
+- `612259.pdf` - File, 124.0 KB.
+- `Analysis--from-Hw3-W_Normalization.odt` - File, 105.2 KB.
+- `Analysis.doc` - File, 240.0 KB.
+- `Analysis.docx` - File, 199.7 KB.
+- `Analysis.odt` - File, 105.2 KB.
+- `australian-crabs.csv` - File, 7.7 KB.
+- `Bands.csv` - File, 101.9 KB.
+- `bands_attribute_names.txt` - File, 640 B.
+- `bayes-example.pdf` - File, 87.0 KB.
+- `C25.pdf` - File, 194.0 KB.
+- `condition.txt` - File, 253 B.
+- `CRISP-DM.pdf` - File, 518.3 KB.
+- `CSCI721GroupProject.pdf` - File, 64.8 KB.
+- `CSCI721Syllabus.pdf` - File, 65.6 KB.
+- `CSCI721W1_Overview.pdf` - File, 308.1 KB.
+- `CSCI721W2_DataTypes.pdf` - File, 216.4 KB.
+- `CSCI721W4_Extra_Graphing data.pdf` - File, 291.7 KB.
+- `CSCI721W4DataAnalysis.pdf` - File, 1.2 MB.
+- `CSCI721W5Non_numerics.pdf` - File, 338.5 KB.
+- `CSCI721W5Non_numerics1.pdf` - File, 324.2 KB.
+- `CSCI721W9_MissingData.pdf` - File, 340.8 KB.
+- `data_dictionary.txt` - File, 823 B.
+- `DataAnalysisExercise.csv` - File, 2.0 KB.
+- `DataCleaning&PreparationBook.pdf` - File, 4.0 MB.
+- `DataCleaningPreparationBook.pdf` - File, 4.0 MB.
+- `DataDataCleaning-20124.pdf` - File, 191.0 KB.
+- `DataMining-Intro.pdf` - File, 159.8 KB.
+- `DataSets.pdf` - File, 38.0 KB.
+- `davetang.org-Using_R_to_obtain_basic_statistics_on_your_dataset.pdf` - File, 29.8 KB.
+- `DC&P.docx` - File, 17.7 KB.
+- `DecisionTrees-20124.pdf` - File, 529.7 KB.
+- `Diabetes--from-Hw4-Matlab.csv` - File, 25.6 KB.
+- `Diabetes.csv` - File, 26.4 KB.
+- `Diabetes.txt` - File, 25.6 KB.
+- `Diabetes1.xlsx` - File, 161.8 KB.
+- `DirtyDataAssignment.pdf` - File, 66.3 KB.
+- `dm.pdf.pdf.pdf` - File, 5.4 MB.
+- `dmi5420.pdf` - File, 70.3 KB.
+- `DonationData.csv` - File, 1.7 MB.
+- `download.pdf` - File, 41.6 KB.
+- `essay copy.odt` - File, 87.5 KB.
+- `essay.odt` - File, 91.1 KB.
+- `extra work.docx` - File, 7.1 KB.
+- `flea.csv` - File, 2.9 KB.
+- `GroupProjectInst.pdf` - File, 64.8 KB.
+- `GUIDE.PDF` - File, 293.4 KB.
+- `Homework (1).docx` - File, 753.0 KB.
+- `Homework.docx` - File, 749.7 KB.
+- `Homework5.docx` - File, 526.5 KB.
+- `Homework6.docx` - File, 749.6 KB.
+- `Homework6.pdf` - File, 752.8 KB.
+- `Homework7--from-h7bd-HW7Q3.doc` - File, 270.0 KB.
+- `Homework7--from-h7bd-HW7Q3.pdf` - File, 163.8 KB.
+- `Homework7.doc` - File, 1.1 MB.
+- `Homework7.pdf` - File, 1.2 MB.
+- `homework8 (1).doc` - File, 66.0 KB.
+- `homework8.doc` - File, 2.8 MB.
+- `homework8.docx` - File, 2.4 MB.
+- `homework8.pdf` - File, 1.4 MB.
+- `Homework9.doc` - File, 24.5 KB.
+- `Hungarian.csv` - File, 10.1 KB.
+- `hungarian.data.processed.csv` - File, 10.0 KB.
+- `Hungarian_j48_results_decimal_10--from-W_Normalization-Results.txt` - File, 1.9 KB.
+- `Hungarian_j48_results_decimal_10--from-WR_minmax-WEKA_Classification-Rules-Generation.txt` - File, 1.9 KB.
+- `Hungarian_j48_results_decimal_10.txt` - File, 1.9 KB.
+- `Hungarian_j48_results_decimal_e.txt` - File, 2.0 KB.
+- `Hungarian_j48_results_minmax.txt` - File, 1.8 KB.
+- `Hungarian_j48_results_unnormalized--from-W_Normalization-Results.txt` - File, 1.7 KB.
+- `Hungarian_j48_results_unnormalized--from-WR_minmax-WEKA_Classification-Rules-Generation.txt` - File, 1.7 KB.
+- `Hungarian_j48_results_unnormalized.txt` - File, 1.7 KB.
+- `Hungarian_normalized_minmax.csv` - File, 16.0 KB.
+- `HW1.csv` - File, 24.4 KB.
+- `hw1read1.docx` - File, 52.6 KB.
+- `hw1Sol.docx` - File, 90.9 KB.
+- `hw1Sol.pdf` - File, 433.2 KB.
+- `hw2--from-Weeks-Week4.pdf` - File, 871.0 KB.
+- `hw2.docx` - File, 146.2 KB.
+- `HW2.pdf` - File, 60.4 KB.
+- `hw2q5.csv` - File, 2.6 KB.
+- `hw2q9.csv` - File, 717 B.
+- `hw2q9.csv.xlsx` - File, 8.9 KB.
+- `hw2q91.csv` - File, 633 B.
+- `hw4.docx` - File, 91.3 KB.
+- `hw4.pdf` - File, 210.0 KB.
+- `HW6.pdf` - File, 77.4 KB.
+- `HW7.pdf` - File, 68.0 KB.
+- `HW8.pdf` - File, 76.1 KB.
+- `hw9.doc` - File, 32.0 KB.
+- `HW9.pdf` - File, 74.3 KB.
+- `HW9Sol.doc` - File, 71.0 KB.
+- `Icann-Iconip2003-2.pdf` - File, 290.0 KB.
+- `IntroClassification-1R.pdf` - File, 105.8 KB.
+- `IntroductionToBigData.pdf` - File, 224.7 KB.
+- `level2_rename_mean_5.csv` - File, 72.0 KB.
+- `matrix2.txt` - File, 11.1 KB.
+- `maxmin-2.txt` - File, 4.9 KB.
+- `maxmin1-1.txt` - File, 4.3 KB.
+- `maxminNN.txt` - File, 1.1 KB.
+- `midterm.odt` - File, 61.2 KB.
+- `MidtermEssay.txt` - File, 4.6 KB.
+- `Missing Values Weka Methods.docx` - File, 244.7 KB.
+- `Missing Values Weka Methods.odt` - File, 294.7 KB.
+- `MissingData.pdf` - File, 356.7 KB.
+- `MissingData2.pdf` - File, 352.0 KB.
+- `MissingData3.pdf` - File, 105.0 KB.
+- `MSProjectReport.pdf` - File, 46.2 KB.
+- `NaiveBayes-20124.pdf` - File, 110.2 KB.
+- `New Microsoft Word Document.docx` - File, 32.2 KB.
+- `notes.txt` - File, 1.1 KB.
+- `olive.csv` - File, 31.1 KB.
+- `Outlier.pdf` - File, 657.6 KB.
+- `output.txt` - File, 4.1 KB.
+- `Output1.txt` - File, 1.3 KB.
+- `Output2.txt` - File, 213.7 KB.
+- `Output3.txt` - File, 3.8 KB.
+- `p365-pinto.pdf` - File, 875.0 KB.
+- `p415-radinsky.pdf` - File, 791.2 KB.
+- `p435-kokkodis.pdf` - File, 585.4 KB.
+- `Phase01.pdf` - File, 369.5 KB.
+- `phase1.odt` - File, 25.4 KB.
+- `Phase2.pdf` - File, 473.9 KB.
+- `Phase3--from-Data-Cleaning-What-Should-I-Wear-Phases.docx` - File, 1.7 MB.
+- `Phase3.docx` - File, 1.7 MB.
+- `Project1-13.docx` - File, 33.7 KB.
+- `ProjectTempStuff.odt` - File, 41.0 KB.
+- `quiz.pdf` - File, 176.8 KB.
+- `README--from-MacPorts-2.1.1-config.TXT` - File, 414 B.
+- `README--from-phase3-phase3.txt` - File, 1.3 KB.
+- `ReadMe.rtf` - File, 6.2 KB.
+- `README.TXT` - File, 1.4 KB.
+- `report (1).pdf` - File, 158.2 KB.
+- `report--from-Data-Cleaning-Processing-Data-Cleaning.pdf` - File, 1.9 MB.
+- `report--from-What-Should-I-Wear-Phases-What-Should-I-Wear---Phase1.pdf` - File, 237.4 KB.
+- `report--from-What-Should-I-Wear-Phases-What-Should-I-Wear---Phase1.tex` - File, 11.3 KB.
+- `report--from-What-Should-I-Wear-Phases-What-Should-I-Wear---Phase2.pdf` - File, 737.4 KB.
+- `report--from-What-Should-I-Wear-Phases-What-Should-I-Wear---Phase2.tex` - File, 18.6 KB.
+- `report--from-What-Should-I-Wear-Phases-What-Should-I-Wear---Phase3.pdf` - File, 1.5 MB.
+- `report.bib` - File, 1.1 KB.
+- `report.pdf` - File, 52.0 KB.
+- `report.tex` - File, 70.9 KB.
+- `Review.docx` - File, 16.0 KB.
+- `Rouput.txt` - File, 3.0 KB.
+- `sig-alternate.cls` - File, 58.3 KB.
+- `sig-alternate.pdf` - File, 12.3 KB.
+- `sig-alternate.tex` - File, 25.0 KB.
+- `solution2.pdf` - File, 188.7 KB.
+- `Syllabus.pdf` - File, 65.6 KB.
+- `TeamProjectExample.pdf` - File, 66.6 KB.
+- `TermProject.pdf` - File, 120.3 KB.
+- `tips.csv` - File, 16.2 KB.
+- `Untitled 1--from-Weeks-week9.odt` - File, 43.8 KB.
+- `Untitled 1.odt` - File, 58.6 KB.
+- `Untitled 2.odt` - File, 53.1 KB.
+- `Untitled 3.odt` - File, 82.1 KB.
+- `weather.csv` - File, 344 B.
+- `WEEK10BLG2.odt` - File, 69.1 KB.
+- `week12.docx` - File, 5.9 KB.
+- `week14.odt` - File, 84.5 KB.
+- `week3.docx` - File, 27.7 KB.
+- `WEEK4 .docx` - File, 111.6 KB.
+- `Week6nd7 Discussion.odt` - File, 65.7 KB.
+- `Weka_clustering.pdf` - File, 179.7 KB.
+- `What problems do you think can arise by combining data from distributed and heterogeneous sources.docx` - File, 20.6 KB.
+- `What Should I Wear.pdf` - File, 1.4 MB.
+- `ZAnalysis1.odt` - File, 420.7 KB.
+- `ZOutput1.txt` - File, 3.2 KB.
+- `ZOutput2.txt` - File, 324.2 KB.
+- `ZOutput3.txt` - File, 5.3 KB.
+- `ZscoreH1-1.txt` - File, 4.3 KB.
+- `zscoreH1-2.txt` - File, 5.2 KB.
+- `ZscoreH1-3.txt` - File, 0 B.
+- `ZScoreNN.txt` - File, 1.1 KB.
+- `zscoresMH1.csv` - File, 21.2 KB.

@@ -1,0 +1,52 @@
+% This file is based on the "sig-alternate.tex" V1.9 April 2009
+% This file should be compiled with V2.4 of "sig-alternate.cls" April 2009
+
+\documentclass{sig-alternate}
+
+\usepackage[english]{babel}	
+\usepackage{pdfpages}														% English language/hyphenation
+\usepackage{url}
+
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd{\maketitle}{\@copyrightspace}{}{}{}
+\makeatother
+
+%%% Maketitle metadata
+\newcommand{\horrule}[1]{\rule{\linewidth}{#1}} 	% Horizontal rule
+
+\title{Big Data Medical Diagnosis}
+\numberofauthors{1}
+\author{
+\alignauthor
+Piter Garcia
+}
+
+\date{25 August 2013}
+
+%\crdata{0-00000-00-0/00/00}
+\begin{document}
+\maketitle
+
+
+\section{Project Idea}
+\label{Project Idea}
+
+The use of the World Wide Web is continuously increasing, making it an a useful tool as a source of prediction purposes such as predicting a medical diagnosis based on an individual symptomatology. The topic I will be discussing is titled "Big Data Medical Diagnosis," in which I want to implement some models and strategies based on the papers cited below. I found session 6. WSDM 2013: Rome, Italy, interesting because it pertains to my topic of discussion which focuses on web mining, prediction and recommendation. The requirement for predicting the symptoms of users would be defined as any action that adapts the information and or services provided by a database to the need of a particular user. Therefore, this database would be taking advantage of the knowledge gained from web browsing of the user. Implementation strategies such as symptoms diagnosis, diagnosis popularity, and diagnosis performance can be derived from the three first papers I have chosen, which can be applied to a database only based on medical sources. The development of each one of these strategies would allow us to build a hybrid system to better diagnose a medical problem and recommend a treatment protocol. This type of system would allow us to predict a medical diagnosis of symptoms that currently afflict users. It would also give them recommendations for treatment based on their, or other users with similar problems, prior symptoms. This would also contribute to the implementation of a personalized system that would allow users to rank their diagnosis accordingly, as well as to diagnose other users with similar symptoms. In order to develop this type of system, it is very important to implement a cleaning and preparation process of the data. Typically, the data recorded in medical databases is sparse and collected with no concerted effort to maintain data quality. For this process, I am using as a reference research papers such as "Discover of Temporal Patterns in Sparse Course-of Disease Data," "Data Quality in Genome Databases," and "Exploration Mining in Diabetic Patients Findings and Conclusions." These research papers, the last three papers cited below, use different cleaning techniques to prepare the data to understand the overall process of knowledge discovery in a medical database environment. 
+
+\section{Current and Future Work}
+\label{Current and Future Work}
+I have read three research papers from the session 6. WSDM 2013: Rome, Italy and I am currently reading three other research papers that are mostly based in understanding the cleaning and preparation process of data for a medical database. I have already designed a structure and design for the implementation of this system, but I need to develop a data cleaning process to properly implement my project by using the techniques and strategies used in each one of the chosen research paper.
+
+
+\bibliographystyle{abbrv}
+\bibliography{report}
+\end{document}
+
+
+
+
+
+
+
+

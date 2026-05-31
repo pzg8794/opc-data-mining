@@ -1,0 +1,10 @@
+Abstract
+In this paper we carry out knowledge discovery on this diabetic patient database, the interesting issues that have surfaced, as well as the lessons we have learnt from this application. We will describe a semi-automatic means for cleaning the diabetic patient database, and present a step-by-step approach to help the health doctors explore their data and to understand the discovered rules better.
+
+Intro
+After eight years of data collection, a whole wealth of information has been gathered. This leads naturally to the application of knowledge discovery and data mining techniques to discover interesting patters that exist in the data. 
+First, the data captured by health clinics are typically very noisy. Many of the data collected are not in the forms that are suitable for data mining. 
+Thus, it is important to present the discovered rules in some easy-to-understand fashion.
+To overcome the problem of noisy data, we have developed a semi-automatic data cleaning system. 
+We apply a user-oriented approach that provides step-by-step exploration of the data in order to better understand the discovered patterns. 
+
