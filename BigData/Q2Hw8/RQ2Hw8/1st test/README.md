@@ -4,12 +4,10 @@ Path: `BigData/Q2Hw8/RQ2Hw8/1st test`
 
 ## Purpose
 
-Indexed project directory from the old Portafolio cleanup.
+Project/source directory imported from Google Drive.
 
 ## Items
 
-- `output.txt` (file)
-- `Rouput.txt` (file)
 - `Rplot.png` (file)
 - `Rplot01.png` (file)
 - `Rplot02.png` (file)
@@ -39,4 +37,4 @@ Indexed project directory from the old Portafolio cleanup.
 
 ## Notes
 
-README generated during the old Portafolio cleanup. Use the root README and `OVERLEAF_PREP.md` for source and conversion context.
+This README was regenerated after importing all GitHub-appropriate simple files from Drive.

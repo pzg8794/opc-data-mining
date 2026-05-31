@@ -4,12 +4,12 @@ Path: `Data Cleaning & Processing/Data Cleaning & Processing/Class Documents/ter
 
 ## Purpose
 
-Indexed project directory from the old Portafolio cleanup.
+Project/source directory imported from Google Drive.
 
 ## Items
 
-- No items currently classified here.
+- `._fly.jpg` (file)
 
 ## Notes
 
-README generated during the old Portafolio cleanup. Use the root README and `OVERLEAF_PREP.md` for source and conversion context.
+This README was regenerated after importing all GitHub-appropriate simple files from Drive.

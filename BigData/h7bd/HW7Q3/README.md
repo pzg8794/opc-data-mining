@@ -4,12 +4,11 @@ Path: `BigData/h7bd/HW7Q3`
 
 ## Purpose
 
-Indexed project directory from the old Portafolio cleanup.
+Project/source directory imported from Google Drive.
 
 ## Items
 
 - `Others/` (folder)
-- `HW7.pdf` (file)
 - `Screen Shot 2013-11-16 at 1.31.15 AM.png` (file)
 - `Screen Shot 2013-11-16 at 1.31.54 AM.png` (file)
 - `Screen Shot 2013-11-16 at 1.34.44 AM.png` (file)
@@ -31,4 +30,4 @@ Indexed project directory from the old Portafolio cleanup.
 
 ## Notes
 
-README generated during the old Portafolio cleanup. Use the root README and `OVERLEAF_PREP.md` for source and conversion context.
+This README was regenerated after importing all GitHub-appropriate simple files from Drive.

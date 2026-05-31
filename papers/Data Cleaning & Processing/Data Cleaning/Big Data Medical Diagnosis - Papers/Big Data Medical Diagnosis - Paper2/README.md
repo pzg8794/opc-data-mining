@@ -4,12 +4,13 @@ Path: `papers/Data Cleaning & Processing/Data Cleaning/Big Data Medical Diagnosi
 
 ## Purpose
 
-Paper/research/proposal materials staged for future Overleaf conversion.
+Paper/research/proposal material staged for future Overleaf conversion.
 
 ## Items
 
 - `report.pdf` (file)
 - `report.tex` (file)
+- `REPORT_INITIAL.PDF` (file)
 - `sig-alternate.tex` (file)
 - `TermPaper1.pdf` (file)
 - `TermPaper2.pdf` (file)
@@ -17,4 +18,4 @@ Paper/research/proposal materials staged for future Overleaf conversion.
 
 ## Notes
 
-README generated during the old Portafolio cleanup. Use the root README and `OVERLEAF_PREP.md` for source and conversion context.
+This README was regenerated after importing all GitHub-appropriate simple files from Drive.

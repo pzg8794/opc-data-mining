@@ -4,7 +4,7 @@ Path: `Data Cleaning & Processing/phase3/phase3/code/city/static/city/css/images
 
 ## Purpose
 
-Indexed project directory from the old Portafolio cleanup.
+Project/source directory imported from Google Drive.
 
 ## Items
 
@@ -23,7 +23,21 @@ Indexed project directory from the old Portafolio cleanup.
 - `main-delimiter.png` (file)
 - `tropical.jpg` (file)
 - `ui-bg_diagonal-maze_20_6e4f1c_10x10.png` (file)
+- `ui-bg_diagonal-maze_40_000000_10x10.png` (file)
+- `ui-bg_fine-grain_10_eceadf_60x60.png` (file)
+- `ui-bg_fine-grain_10_f8f7f6_60x60.png` (file)
+- `ui-bg_fine-grain_15_d3c05a_60x60.png` (file)
+- `ui-bg_fine-grain_15_eceadf_60x60.png` (file)
+- `ui-bg_fine-grain_15_ffffff_60x60.png` (file)
+- `ui-bg_fine-grain_65_654b24_60x60.png` (file)
+- `ui-bg_fine-grain_68_b83400_60x60.png` (file)
+- `ui-icons_222222_256x240.png` (file)
+- `ui-icons_3572ac_256x240.png` (file)
+- `ui-icons_8c291d_256x240.png` (file)
+- `ui-icons_b83400_256x240.png` (file)
+- `ui-icons_fbdb93_256x240.png` (file)
+- `ui-icons_ffffff_256x240.png` (file)
 
 ## Notes
 
-README generated during the old Portafolio cleanup. Use the root README and `OVERLEAF_PREP.md` for source and conversion context.
+This README was regenerated after importing all GitHub-appropriate simple files from Drive.

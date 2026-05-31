@@ -4,13 +4,20 @@ Path: `Data Cleaning & Processing/phase3/__MACOSX/phase3/code/city`
 
 ## Purpose
 
-Indexed project directory from the old Portafolio cleanup.
+Project/source directory imported from Google Drive.
 
 ## Items
 
 - `static/` (folder)
 - `templates/` (folder)
+- `.___init__.py` (file)
+- `._admin.py` (file)
+- `._forms.py` (file)
+- `._models.py` (file)
+- `._tests.py` (file)
+- `._urls.py` (file)
+- `._views.py` (file)
 
 ## Notes
 
-README generated during the old Portafolio cleanup. Use the root README and `OVERLEAF_PREP.md` for source and conversion context.
+This README was regenerated after importing all GitHub-appropriate simple files from Drive.

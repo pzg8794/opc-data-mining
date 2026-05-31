@@ -4,7 +4,7 @@ Path: `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3`
 
 ## Purpose
 
-Report, lab, assignment, and final-project documents staged for future Overleaf conversion or citation.
+Report, lab, assignment, final-project, notes, and documentation material staged for reuse or future Overleaf conversion.
 
 ## Items
 
@@ -13,11 +13,13 @@ Report, lab, assignment, and final-project documents staged for future Overleaf 
 - `WR_minmax/` (folder)
 - `WRM_Z-scores/` (folder)
 - `Analysis.doc` (file)
+- `Analysis.odt` (file)
 - `data_dictionary.txt` (file)
 - `Hungarian.csv` (file)
 - `matrix2.txt` (file)
 - `notes.txt` (file)
+- `ZAnalysis1.odt` (file)
 
 ## Notes
 
-README generated during the old Portafolio cleanup. Use the root README and `OVERLEAF_PREP.md` for source and conversion context.
+This README was regenerated after importing all GitHub-appropriate simple files from Drive.

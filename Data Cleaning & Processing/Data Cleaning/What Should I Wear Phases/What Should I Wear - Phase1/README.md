@@ -4,7 +4,7 @@ Path: `Data Cleaning & Processing/Data Cleaning/What Should I Wear Phases/What S
 
 ## Purpose
 
-Indexed project directory from the old Portafolio cleanup.
+Project/source directory imported from Google Drive.
 
 ## Items
 
@@ -21,21 +21,14 @@ Indexed project directory from the old Portafolio cleanup.
 - `fly.jpg` (file)
 - `fo.png` (file)
 - `fourth.png` (file)
-- `New Microsoft Word Document.docx` (file)
 - `nineth.png` (file)
-- `p365-pinto.pdf` (file)
-- `p415-radinsky.pdf` (file)
-- `p435-kokkodis.pdf` (file)
 - `phase1-2.png` (file)
 - `phase1-Model.png` (file)
 - `phase1.png` (file)
-- `README.TXT` (file)
 - `s.png` (file)
 - `sec.png` (file)
 - `second.png` (file)
 - `seventh.png` (file)
-- `sig-alternate.pdf` (file)
-- `sig-alternate.tex` (file)
 - `sixth.png` (file)
 - `t.png` (file)
 - `tenth.png` (file)
@@ -43,8 +36,7 @@ Indexed project directory from the old Portafolio cleanup.
 - `tr1.png` (file)
 - `tr2.png` (file)
 - `tr3.png` (file)
-- `~$w Microsoft Word Document.docx` (file)
 
 ## Notes
 
-README generated during the old Portafolio cleanup. Use the root README and `OVERLEAF_PREP.md` for source and conversion context.
+This README was regenerated after importing all GitHub-appropriate simple files from Drive.

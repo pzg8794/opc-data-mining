@@ -4,7 +4,7 @@ Path: `Data Cleaning & Processing/Phase2/BestVacation Framework/BestVacation/Mac
 
 ## Purpose
 
-Indexed project directory from the old Portafolio cleanup.
+Project/source directory imported from Google Drive.
 
 ## Items
 
@@ -13,7 +13,15 @@ Indexed project directory from the old Portafolio cleanup.
 - `darwintracelib1.0/` (folder)
 - `machista1.0/` (folder)
 - `macports1.0/` (folder)
+- `package1.0/` (folder)
+- `pextlib1.0/` (folder)
+- `port/` (folder)
+- `port1.0/` (folder)
+- `portindex/` (folder)
+- `programs/` (folder)
+- `registry2.0/` (folder)
+- `tclobjc1.0/` (folder)
 
 ## Notes
 
-README generated during the old Portafolio cleanup. Use the root README and `OVERLEAF_PREP.md` for source and conversion context.
+This README was regenerated after importing all GitHub-appropriate simple files from Drive.

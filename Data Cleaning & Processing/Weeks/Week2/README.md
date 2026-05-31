@@ -4,18 +4,14 @@ Path: `Data Cleaning & Processing/Weeks/Week2`
 
 ## Purpose
 
-Indexed project directory from the old Portafolio cleanup.
+Project/source directory imported from Google Drive.
 
 ## Items
 
 - `Blog instructions.html/` (folder)
-- `CSCI721W2_DataTypes.pdf` (file)
-- `HW1.csv` (file)
-- `hw1read1.docx` (file)
-- `hw1Sol.docx` (file)
-- `hw1Sol.pdf` (file)
-- `Review.docx` (file)
+- `hw1.PNG` (file)
+- `hw12.PNG` (file)
 
 ## Notes
 
-README generated during the old Portafolio cleanup. Use the root README and `OVERLEAF_PREP.md` for source and conversion context.
+This README was regenerated after importing all GitHub-appropriate simple files from Drive.

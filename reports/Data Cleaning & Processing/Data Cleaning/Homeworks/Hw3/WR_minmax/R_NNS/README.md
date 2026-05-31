@@ -4,14 +4,18 @@ Path: `reports/Data Cleaning & Processing/Data Cleaning/Homeworks/Hw3/WR_minmax/
 
 ## Purpose
 
-Report, lab, assignment, and final-project documents staged for future Overleaf conversion or citation.
+Report, lab, assignment, final-project, notes, and documentation material staged for reuse or future Overleaf conversion.
 
 ## Items
 
+- `max_minmodel.png` (file)
 - `maxmin-2.txt` (file)
 - `maxmin1-1.txt` (file)
 - `maxminNN.txt` (file)
+- `MInMaxRplot.png` (file)
+- `MMNNRplot.png` (file)
+- `ModelNumRplot.png` (file)
 
 ## Notes
 
-README generated during the old Portafolio cleanup. Use the root README and `OVERLEAF_PREP.md` for source and conversion context.
+This README was regenerated after importing all GitHub-appropriate simple files from Drive.

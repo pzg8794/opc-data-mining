@@ -4,12 +4,18 @@ Path: `Data Cleaning & Processing/phase3/__MACOSX/phase3/code/city/templates/cit
 
 ## Purpose
 
-Indexed project directory from the old Portafolio cleanup.
+Project/source directory imported from Google Drive.
 
 ## Items
 
-- No items currently classified here.
+- `._404.html` (file)
+- `._after_login.html` (file)
+- `._createPlace.html` (file)
+- `._dataListing.html` (file)
+- `._index.html` (file)
+- `._placeListing.html` (file)
+- `._searchPlace.html` (file)
 
 ## Notes
 
-README generated during the old Portafolio cleanup. Use the root README and `OVERLEAF_PREP.md` for source and conversion context.
+This README was regenerated after importing all GitHub-appropriate simple files from Drive.
