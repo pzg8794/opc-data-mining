@@ -54,3 +54,11 @@ These were empty or README-only after importing GitHub-appropriate files. Check 
 ## Import Status
 
 - `1A2zgFRN7sovwpr9JqKaohbfIA7h5UBCI`: completed
+
+## Placeholder Paths Removed During Final Audit
+
+These GitHub paths contained only generated README or placeholder files after simple content import. They were removed so the repo does not show folders that look useful but contain no GitHub-appropriate data.
+
+- `Data Cleaning & Processing/Class Documents/termpaper_template/__MACOSX/`
+- `Data Cleaning & Processing/Data Cleaning & Processing/Class Documents/termpaper_template/__MACOSX/`
+- `Data Cleaning & Processing/phase3/__MACOSX/`
